@@ -1,0 +1,179 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Common\bin\Debug\Common.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Common\bin\Debug\Common.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Common\obj\Debug\Common.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Common\obj\Debug\Common.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\用户目录\我的文档\Visual Studio 2013\Projects\EF快速开发框架\Common\bin\Debug\Common.dll.config
+D:\用户目录\我的文档\Visual Studio 2013\Projects\EF快速开发框架\Common\bin\Debug\EntityFramework.dll
+D:\用户目录\我的文档\Visual Studio 2013\Projects\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\用户目录\我的文档\Visual Studio 2013\Projects\EF快速开发框架\Common\bin\Debug\Model.dll
+D:\用户目录\我的文档\Visual Studio 2013\Projects\EF快速开发框架\Common\bin\Debug\Model.pdb
+D:\用户目录\我的文档\Visual Studio 2013\Projects\EF快速开发框架\Common\bin\Debug\EntityFramework.xml
+D:\用户目录\我的文档\Visual Studio 2013\Projects\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\Common.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Common\obj\Debug\Common.pdb
+F:\EF快速开发框架\Common\bin\Debug\Common.dll.config
+F:\EF快速开发框架\Common\bin\Debug\Common.dll
+F:\EF快速开发框架\Common\bin\Debug\Common.pdb
+F:\EF快速开发框架\Common\bin\Debug\EntityFramework.dll
+F:\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.dll
+F:\EF快速开发框架\Common\bin\Debug\Model.dll
+F:\EF快速开发框架\Common\bin\Debug\Model.pdb
+F:\EF快速开发框架\Common\bin\Debug\EntityFramework.xml
+F:\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.xml
+F:\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\EF快速开发框架\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+F:\EF快速开发框架\Common\obj\Debug\Common.dll
+F:\EF快速开发框架\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\Common.dll.config
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\Common.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\Common.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Common\obj\Debug\Common.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\Common.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\Common.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\Common.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\Newtonsoft.Json.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\obj\Debug\Common.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Common\obj\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\Common.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\Common\obj\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Common\obj\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\Common.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\obj\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\obj\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\Common.dll.config
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\obj\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Common\obj\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\Common.dll.config
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\Common.pdb
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\Common\obj\Debug\Common.dll
+C:\Users\hihi_zh\Desktop\BVM\Common\obj\Debug\Common.pdb
+G:\Git\DevelopmentFramework\Common\bin\Debug\Common.dll.config
+G:\Git\DevelopmentFramework\Common\bin\Debug\Common.dll
+G:\Git\DevelopmentFramework\Common\bin\Debug\Common.pdb
+G:\Git\DevelopmentFramework\Common\bin\Debug\EntityFramework.dll
+G:\Git\DevelopmentFramework\Common\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\DevelopmentFramework\Common\bin\Debug\log4net.dll
+G:\Git\DevelopmentFramework\Common\bin\Debug\Newtonsoft.Json.dll
+G:\Git\DevelopmentFramework\Common\bin\Debug\EntityFramework.xml
+G:\Git\DevelopmentFramework\Common\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\DevelopmentFramework\Common\bin\Debug\Newtonsoft.Json.xml
+G:\Git\DevelopmentFramework\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\DevelopmentFramework\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\DevelopmentFramework\Common\obj\Debug\Common.dll
+G:\Git\DevelopmentFramework\Common\obj\Debug\Common.pdb
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\Common.dll.config
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\Common.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\Common.pdb
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\EntityFramework.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\log4net.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\Newtonsoft.Json.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\EntityFramework.xml
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\Newtonsoft.Json.xml
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+G:\Git\EasyUi+DevelopmentFramework\Common\obj\Debug\Common.dll
+G:\Git\EasyUi+DevelopmentFramework\Common\obj\Debug\Common.pdb

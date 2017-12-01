@@ -1,0 +1,432 @@
+﻿/*=======初始化======*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: '微软雅黑', Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none; /*禁止拉伸*/
+    height: 200px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    /*border-radius: 5px;*/
+    border: 1px solid #ccc;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    color: #ddd;
+}
+/*=======初始化        end======*/
+
+
+body {
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    background-color: #1F1F1F;
+    width: 1219px;
+    height: 966px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #333;
+    width: 16%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .nav li {
+        display: inline-block;
+        width: 100%;
+        line-height: 50px;
+        margin-top: 33px;
+        font-size: 20px;
+    }
+          .nav li a {
+            display: inline-block;
+            width: 100%;
+            line-height: 50px;
+            cursor:pointer;
+        }
+.nav_hover {
+    background-color: #0078D7;
+}
+
+.content {
+    width: 84%;
+    height: 947px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 15px;
+}
+
+    .content .header {
+        width: 100%;
+        height: 80px;
+        background-color: #292929;
+        padding-left: 650px;
+    }
+        .content .header p span {
+            margin-left: 10px;
+            line-height: 80px;
+            font-size: 17px;
+        }
+
+.header > p > span > label {
+    color: #C18E10;
+}
+
+.line {
+    display: inline-block;
+    background-color: #fff;
+    vertical-align: middle;
+    width: 2px;
+    height: 18px;
+}
+
+.sectionA {
+    background-color: #292929;
+    width: 100%;
+    height: 410px;
+    margin-top: 23px;
+}
+
+.first-line i {
+    width: 437px;
+    height: 97px;
+    margin-top: 54px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.first-line .btn-school {
+    background: url(/Imgs/yhjb-xz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.first-line .btn-business {
+    background: url(/Imgs/yhjb-xz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-left: 62px;
+}
+
+.first-line span {
+    font-size: 30px;
+    letter-spacing: 7px;
+    line-height: 93px;
+    color: #fff;
+}
+
+.second-line {
+    margin-top: 60px;
+}
+
+    .second-line i {
+        width: 236px;
+        height: 136px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+
+        .second-line i span {
+            display: block;
+            font-size: 20px;
+        }
+
+            .second-line i span:first-child {
+                color: #fff;
+                margin-top: 35px;
+            }
+
+            .second-line i span:last-child {
+                color: #8B8B8B;
+                margin-top: 10px;
+            }
+
+    .second-line .oneYear {
+        background: url(/Imgs/wbk2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .second-line .threeMonth {
+        background: url(/Imgs/wbk2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        margin: 0 110px;
+    }
+
+    .second-line .oneMonth {
+        background: url(/Imgs/wbk2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+
+.sectionB {
+    background-color: #292929;
+    width: 100%;
+    height: 430px;
+    margin-top: 23px;
+    color: #fff;
+    text-align: left;
+}
+
+    .sectionB .scanPay {
+        font-size: 20px;
+        padding-left: 83px;
+    }
+
+.scanPay i {
+    display: inline-block;
+    width: 144px;
+    height: 74px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.sectionB .selPlatform {
+    margin-top: 49px;
+    padding-left: 120px;
+}
+
+.selPlatform > span {
+    line-height: 47px;
+    font-size: 16px;
+}
+
+.selPlatform i {
+    width: 152px;
+    height: 47px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.Alipay {
+    background: url(/Imgs/zfb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.Tenpay {
+    background: url(/Imgs/cft.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.sectionB .money {
+    margin-top: 40px;
+    padding-left: 120px;
+}
+
+.money strong {
+    font-size: 30px;
+    color: #F0B004;
+    margin-right: 10px;
+}
+
+.money span:last-child {
+    margin-left: 10px;
+}
+
+.sectionB .article {
+    margin-top: 40px;
+    padding-left: 210px;
+}
+
+.article input[type=checkbox] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+}
+
+.article span {
+    font-size: 20px;
+}
+
+.sectionB p:lang(btn-open) {
+    margin-top: 40px;
+    padding-left: 210px;
+}
+
+    .sectionB p:lang(btn-open) button {
+        display: inline-block;
+        border: none;
+        width: 222px;
+        height: 52px;
+        background-color: #047CDD;
+    }
+
+.scanPay-sel {
+    background-color: #0178D6;
+}
+
+.scanPay i span {
+    line-height: 74px;
+}
+
+
+.contentPay {
+    /*padding-top:40px;*/
+    width: 84%;
+    height: 947px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+    .contentPay .partA {
+        margin: 40px auto;
+        width: 1050px;
+        height: 400px;
+        background-color: #292929;
+        text-align: left;
+    }
+
+.partA img {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    /*background-color: red;*/
+    margin: 100px 100px;
+}
+
+.partA div {
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+    .partA div p {
+        margin-bottom: 30px;
+    }
+
+    .partA div .uName {
+    }
+
+    .partA div p:lang(user) span {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #696969;
+    }
+
+    .partA div p:lang(upgrade) span:first-child {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 260px;
+        line-height: 60px;
+        background-color: #0178D6;
+        font-size: 23px;
+    }
+
+    .partA div p:lang(upgrade) span:last-child {
+        color: #000;
+        margin-left: 50PX;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 260px;
+        line-height: 60px;
+        background-color: #FFB901;
+        font-size: 23px;
+    }
+
+.contentPay .partB {
+    margin: 0px auto;
+    width: 1050px;
+    height: 400px;
+}
+
+.partB p:first-child {
+    color: #fff;
+    text-align: left;
+    font-size: 25px;
+}
+
+.partB table {
+    width: 1050px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+    .partB table th {
+        width: 370px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+        .partB table th:lang(grey) {
+            background-color: #696969;
+        }
+
+        .partB table th:lang(blue) {
+            background-color: #015CA4;
+        }
+
+        .partB table th:lang(yellow) {
+            background-color: #FFB901;
+            color: #000;
+        }
+
+    .partB table td {
+        font-size:20px;
+        text-align: center;
+        width: 370px;
+        height: 300px;
+        background-color: #292929;
+        border-right: 2px solid #616161;
+    }

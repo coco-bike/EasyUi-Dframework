@@ -1,0 +1,106 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>模型商城后台系统</title>
+    <!--网站图标-->
+    @*<link rel="shortcut icon" type="image/x-icon" href="~/Img/Icon/video.ico" media="screen" />*@
+    <link href="~/Content/Admin/style/admin_Login.css" rel="stylesheet" />
+    <link href="~/Content/Common/style/loading.css" rel="stylesheet" />
+    <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+    <!--实体模型-->
+    <script src="~/Content/Admin/script/admin_M_Login.js"></script>
+</head>
+<body>
+    <!--全局覆盖层-->
+    <div class="layer">
+        <t-loading v-bind:seen="loading_seen"></t-loading>
+    </div>
+    <!--全局覆盖层       end-->
+
+    <!--canvas-->
+    <canvas id="canvas"></canvas>
+    <script src="~/Content/Plugs/Canvas/canvasBg.js"></script>
+    <!--canvas      end-->
+
+    <!--页面容器-->
+    <div class="containner">
+        <!--页面头部-->
+        <div class="header">
+            <p><span class="projectName">模&nbsp;&nbsp;&nbsp;型&nbsp;&nbsp;&nbsp;商&nbsp;&nbsp;&nbsp;城&nbsp;&nbsp;&nbsp;后&nbsp;&nbsp;&nbsp;台&nbsp;&nbsp;&nbsp;馆&nbsp;&nbsp;&nbsp;理&nbsp;&nbsp;&nbsp;系&nbsp;&nbsp;&nbsp;统</span></p>
+        </div>
+        <!--页面头部        end-->
+        <!--页面正文-->
+        <div class="body">
+            <div class="logIn-containner">
+                <!--登录框标题-->
+                <div class="logIn-header">
+                    <p>用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;登&nbsp;&nbsp;&nbsp;录</p>
+                </div>
+                <!--登录框标题       end-->
+                <div class="logIn-body">
+                    <!--登录框用户名-->
+                    <p class="logIn-UName">
+                        <label v-bind:class="uNamePositon">用&nbsp;&nbsp;户&nbsp;&nbsp;名</label>
+                        <input type="text" name="" id="uName" v-model="base.nickName" v-on:focus="uName_Focus()" v-on:blur="uName_Blur()" autocomplete="off"><i class=" img-admin"></i>
+                    </p>
+                    <!--登录框用户名      end-->
+                    <!--登录框密码-->
+                    <p class="logIn-Pwd">
+                        <label v-bind:class="pwdPosition">密&nbsp;&nbsp;码</label>
+                        <input type="password" name="" id="pwd" v-model="base.pwd" v-on:focus="pwd_Focus()" v-on:blur="pwd_Blur()" autocomplete="off"><i class="img-pwd"></i>
+                    </p>
+                    <!--登录框密码       end-->
+                    <!--登录框验证码-->
+                    <p class="logIn-ValidateCode">
+                        <label v-bind:class="validatePositon">验&nbsp;&nbsp;证&nbsp;&nbsp;码&nbsp;&nbsp;</label>
+                        <input type="text" name="" id="pwd" v-model="base.validateNum" v-on:focus="validateCode_Focus()" v-on:blur="validateCode_Blur()" v-on:keyup.enter="btn_login" autocomplete="off"><i class="img-validateCode"></i>
+                    </p>
+                    <!--登录框验证码      end-->
+                    <p class="logIn-ValidateCode">
+                        <img v-bind:src="validateImg_src" />
+                        <a href="javascript:void(0)" v-on:click="changeCode()">看不清？换一张</a>
+                    </p>
+                    <p class="logIn-Remember">
+                        <input type="checkbox" id="reb-pwd" v-model="base.isRemember">
+                        <label for="reb-pwd">记住密码</label>
+                    </p>
+                    <p class="logIn-LogBtn">
+                        <!--prevent阻止默认行为，比如button自动提交表单-->
+                        <button v-on:click.prevent="btn_login"><span> 登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</span></button>
+                    </p>
+                </div>
+                <div class="logIn-footer">
+                </div>
+            </div>
+        </div>
+        <!--页面正文    end-->
+        <!--页面尾部-->
+        <div class="footer">
+        </div>
+        <!--页面尾部        end-->
+    </div>
+    <!--页面容器        end-->
+    <!--加载模板-->
+    <template id="loding-component">
+        <div class="loading_Layer" v-if="seen">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+                <p><span>Loading....</span></p>
+            </div>
+        </div>
+    </template>
+    <!--加载模板        end-->
+    <script src="~/Content/Admin/script/admin_TEP_Login.js"></script>
+    <!--视图模型-->
+    <script src="~/Content/Admin/script/admin_VM_Login.js"></script>
+</body>
+</html>

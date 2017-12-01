@@ -1,0 +1,245 @@
+﻿/*=======初始化======*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: '微软雅黑', Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none; /*禁止拉伸*/
+    height: 200px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    /*border-radius: 5px;*/
+    border: 1px solid #ccc;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    color: #ddd;
+    border: none;
+    /*width: 130px;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin-right: 32px;
+    font-size: 20px;*/
+}
+/*=======初始化        end======*/
+body {
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    background-color: #1F1F1F;
+    width: 1219px;
+    text-align: center;
+    height: 966px;
+}
+
+.nav {
+    background-color: #333;
+    width: 16%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .nav li {
+        display: inline-block;
+        width: 100%;
+        line-height: 50px;
+        margin-top: 33px;
+        font-size: 20px;
+    }
+
+        .nav li a {
+            display: inline-block;
+            width: 100%;
+            line-height: 50px;
+            cursor: pointer;
+        }
+
+.nav_hover {
+    background-color: #0078D7;
+}
+
+.content {
+    width: 84%;
+    height: 966px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 33px;
+}
+
+    .content .headSection {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 0 50px;
+    }
+
+        .content .headSection .headPic {
+            width: 226px;
+            height: 226px;
+            border: 1px solid #fff;
+        }
+
+.headPic img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .detailInfo {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #292929;
+    color: #fff;
+    width: 685px;
+    height: 100%;
+    margin: 0 0 0 62px;
+}
+
+    .content .detailInfo span {
+        font-size: 20px;
+    }
+
+    .content .detailInfo .title {
+        background-color: #0078D7;
+        width: 100%;
+        height: 49px;
+    }
+
+        .content .detailInfo .title button {
+            display: inline-block;
+            line-height: 49px;
+            font-size: 20px;
+        }
+
+            .content .detailInfo .title button:first-child {
+                margin-left: 30px;
+                float: left;
+            }
+
+            .content .detailInfo .title button:last-child {
+                float: right;
+                margin-right: 30px;
+            }
+
+.detailInfo .edit div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.edit .editForm p input {
+}
+
+.edit .editForm p span {
+    display: inline-block;
+    background-color: #0078D7;
+    width: 150px;
+    height: 27px;
+    text-align: center;
+    color: #fff;
+}
+
+.detailInfo .edit {
+    text-align: center;
+}
+
+    .detailInfo .edit div p {
+        margin-top: 30px;
+    }
+
+    .detailInfo .edit div:first-child {
+        margin-right: 30px;
+    }
+
+        .detailInfo .edit div:first-child p {
+            text-align: right;
+        }
+
+    .detailInfo .edit div:last-child p {
+        text-align: left;
+    }
+
+    .detailInfo .edit input {
+        background-color: #1F1F1F;
+        color: #fff;
+        font-size: 19px;
+    }
+
+    .detailInfo .edit > p {
+        margin: 40px 0 0 350px;
+    }
+
+    .detailInfo .edit span {
+        color: #999;
+    }
+
+    .detailInfo .edit .opt button {
+        width: 130px;
+        height: 40px;
+        border: 1px solid #ddd;
+        margin-right: 32px;
+        font-size: 20px;
+    }
+
+.detailInfo .show div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.detailInfo .show {
+    text-align: center;
+}
+
+    .detailInfo .show div p {
+        margin-top: 30px;
+    }
+
+    .detailInfo .show div:first-child {
+        margin-right: 30px;
+    }
+
+        .detailInfo .show div:first-child p {
+            text-align: right;
+        }
+
+    .detailInfo .show div:last-child p {
+        text-align: left;
+    }
+
+    .detailInfo .show span {
+        display: inline-block;
+        vertical-align: top;
+        height: 26.67px;
+    }

@@ -1,0 +1,95 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\Model.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\Newtonsoft.Json.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\obj\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\obj\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\Model.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\Model\obj\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Model\obj\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\Model.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\obj\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\obj\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\Model.dll.config
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\obj\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Model\obj\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\Model.dll.config
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\Model\obj\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\BVM\Model\obj\Debug\Model.pdb
+G:\Git\DevelopmentFramework\Model\bin\Debug\Model.dll.config
+G:\Git\DevelopmentFramework\Model\bin\Debug\Model.dll
+G:\Git\DevelopmentFramework\Model\bin\Debug\Model.pdb
+G:\Git\DevelopmentFramework\Model\bin\Debug\EntityFramework.dll
+G:\Git\DevelopmentFramework\Model\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\DevelopmentFramework\Model\bin\Debug\Newtonsoft.Json.dll
+G:\Git\DevelopmentFramework\Model\bin\Debug\EntityFramework.xml
+G:\Git\DevelopmentFramework\Model\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\DevelopmentFramework\Model\bin\Debug\Newtonsoft.Json.xml
+G:\Git\DevelopmentFramework\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\DevelopmentFramework\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\DevelopmentFramework\Model\obj\Debug\Model.dll
+G:\Git\DevelopmentFramework\Model\obj\Debug\Model.pdb
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\Model.dll.config
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\Model.dll
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\Model.pdb
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\EntityFramework.dll
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\Newtonsoft.Json.dll
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\EntityFramework.xml
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\Newtonsoft.Json.xml
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+G:\Git\EasyUi+DevelopmentFramework\Model\obj\Debug\Model.dll
+G:\Git\EasyUi+DevelopmentFramework\Model\obj\Debug\Model.pdb

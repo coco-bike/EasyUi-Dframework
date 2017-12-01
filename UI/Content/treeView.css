@@ -1,0 +1,128 @@
+﻿i:hover {
+    cursor: pointer;
+}
+
+i {
+    color: #fff;
+    font-size: 2px;
+}
+
+.menuTree {
+    font-size: 15px;
+    width: 285px;
+}
+
+    .menuTree div {
+        /*margin-left: 15px;*/
+    }
+
+    .menuTree div {
+        padding-left: 20px;
+    }
+
+        .menuTree div:first-child i {
+            font-size: 1px;
+        }
+
+        .menuTree div div {
+            padding-left: 20px;
+        }
+
+        .menuTree div:hover {
+            background-color: #1F4F75;
+        }
+
+        .menuTree div ul {
+            overflow: hidden;
+            display: none;
+            height: auto;
+            margin: 0;
+        }
+
+    .menuTree span {
+        height: 20px;
+        line-height: 25px;
+        color: #fff;
+        padding-left: 15px;
+        margin: 1px 0;
+        cursor: pointer;
+    }
+
+    .menuTree a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .menuTree a:hover {
+            color: #06F;
+        }
+
+    .menuTree span {
+        height: 50px;
+    }
+    /*.menuTree > div > a > span {
+        margin-left:16px;
+    }*/
+
+
+.home1 {
+    background-image: url(../../../Imgs/nav/home1.png);
+    background-position:0px 4px;/*左右  上下*/
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 70%;
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+.home2 {
+    background-image: url(../../../Imgs/nav/home2.png);
+    background-position:0px 4px;/*左右  上下*/
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 70%;
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+.left1  {
+    background-image: url(../../../Imgs/nav/left2.png);
+    background-position:4px 2px;/*左右  上下*/
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 60%;
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+.left2{
+    background-image: url(../../../Imgs/nav/left1.png);
+    background-position:4px 2px;/*  左右  上下*/
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 60%;
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+.down1  {
+    background-image: url(../../../Imgs/nav/down1.png);
+    background-position:4px 2px;/*左右  上下*/
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 60%;
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+.down2  {
+    background-image: url(../../../Imgs/nav/down2.png);
+    background-position:4px 2px;/*左右  上下*/
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 60%;
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+

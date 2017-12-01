@@ -1,0 +1,301 @@
+﻿.nav_body ul [index="1"] {
+    background-color: #36648B;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 12px rgba(72, 106, 170, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 12px rgba(72, 106, 170, 1.0),0 0 20px rgba(0, 140, 255, 1.0);
+    }
+}
+
+button {
+    border: none;
+    background: transparent;
+    border-radius:6px;
+}
+
+/*===============表格样式===============*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    padding: 9px 0px;
+    border: 1px solid #ddd;
+    color: #E1E1E2;
+    font-size: 18px;
+    background-color: #36648B;
+}
+
+td {
+    display: table-cell;
+    padding: 6px 0px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color:#EDEDED;
+}
+/*===============表格样式   end===============*/
+
+
+
+.b-header > p > button {
+    height: 100%;
+    width: 92px;
+    padding: 0px;
+}
+
+.b-header > p > button {
+    background-color: rgba(0, 140, 255, 0.5);
+}
+
+    .b-header > p > button:hover {
+        background-color: rgba(0, 140, 255, 1.0);
+    }
+
+.b-header > button {
+    background-color: #00ff90;
+    width: 92px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.b-header {
+    height: 7%;
+    width: 100%;
+    border: 1px solid #808080;
+}
+
+    .b-header > p {
+        height: 40px;
+        width: 400px;
+        border: 1px solid #ccc;
+        margin-top: 8px;
+        float: right;
+    }
+
+    .b-header input {
+        height: 100%;
+        width: 306px;
+        border: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .b-header button i {
+        margin: 0;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .b-header > p:hover {
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+
+.b-body {
+    width:100%;
+    height:822.19px;
+}
+.b-form {
+    width: 100%;
+    height: 86%;
+}
+
+    .b-form .upDown {
+        padding: 0px;
+    }
+    .b-form .option {
+            padding: 0px;
+    }
+
+
+        .b-form .upDown button {
+            width: 80px;
+          height: 29px;
+             margin:0 10px;
+             color:#808080;
+             /*background-color:#F0FFFF;*/
+             border:1px solid #ddd;
+        }
+
+    .b-form .option button {
+           width: 80px;
+            height: 29px;
+             /*background-color: #2AA4D4;*/
+             margin:0 5px;
+             color:#fff;
+    }    
+
+.b-footer {
+    width: 100%;
+    height: 7%;
+    border: 1px solid #808080;
+    padding-top:10px
+}
+.delete {
+    background-color:#F08080;
+}
+.update {
+     background-color:#98FB98;
+}
+.detail {
+         background-color:	#87CEFA;
+}
+.typeRelation {
+    background-color:#C2C2C2;
+}
+
+/*=============新增模态===============*/
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /*display: none;*/
+    visibility:hidden;
+    text-align: center;
+}
+
+.mask-form {
+    width: 1300px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+    .mask-form .mask-header {
+        height: 70px;
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+        .mask-form .mask-header p > span {
+            font-size: 25px;
+            line-height: 70px;
+        }
+
+
+    .mask-form .mask-body {
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+.mask-body .mask-body-left {
+    text-align: center;
+    border-right: 1px dashed #ccc;
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 609px;
+}
+
+.mask-body .mask-body-right {
+    text-align: left;
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 685px;
+    padding-top: 16px;
+}
+
+.tagInfo input[type=button] {
+    width: 70px;
+    height: 27px;
+    vertical-align: top;
+}
+
+.mask-form .mask-body p {
+    position: relative;
+}
+
+    .mask-form .mask-body p:first-child {
+        margin-left: -16px;
+    }
+
+.mask-form .mask-body .Basic p {
+    margin-top: 20px;
+}
+
+.mask-form .mask-body i {
+    color: red;
+}
+
+.mask-form .mask-body p > span {
+    font-size: 20px;
+}
+
+.tagForm {
+    float:left;
+    width: 330px;
+    height: 200px;
+}
+
+    .tagForm li {
+        width: 90px;
+        height: 25px;
+        margin: 10px 0 0 20px;
+        color: #fff;
+        background-color: rgba(30,144,255,.3);
+        text-align: center;
+    }
+
+        .tagForm li a {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+            .tagForm li a:first-child {
+                width: 100%;
+                line-height: 25px;
+            }
+
+            .tagForm li a:last-child {
+                position: relative;
+                top: -32px;
+                left: 40px;
+                z-index: 5;
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                background-color: red;
+            }
+
+.noSelect {
+    background-color: rgba(30,144,255,0.3);
+}
+
+.select {
+    background-color: rgba(30,144,255,1);
+}
+
+.mask-form .mask-body p > input:not([type=button]), textarea {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 20px;
+    width: 350px;
+}
+
+.mask-form .mask-footer {
+    width: inherit;
+    height: 70px;
+    border-radius: 0 0 16px 16px;
+    padding: 12px 0 0 210px;
+}
+
+    .mask-form .mask-footer input[type=button] {
+        margin: 2px 50px;
+    }

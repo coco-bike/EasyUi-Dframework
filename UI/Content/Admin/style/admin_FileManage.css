@@ -1,0 +1,163 @@
+﻿.nav_body ul [index="2"] {
+    background-color: #36648B;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 12px rgba(72, 106, 170, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 12px rgba(72, 106, 170, 1.0),0 0 20px rgba(0, 140, 255, 1.0);
+    }
+}
+
+button {
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+}
+
+/*===============表格样式===============*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    padding: 9px 0px;
+    border: 1px solid #ddd;
+    color: #E1E1E2;
+    font-size: 18px;
+    background-color: #36648B;
+}
+
+td {
+    display: table-cell;
+    padding: 6px 0px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #EDEDED;
+}
+
+
+
+.f-header > p > button {
+    height: 100%;
+    width: 92px;
+    padding: 0px;
+}
+
+.f-header > p > button {
+    background-color: rgba(0, 140, 255, 0.5);
+}
+
+    .f-header > p > button:hover {
+        background-color: rgba(0, 140, 255, 1.0);
+    }
+
+.f-header > button {
+    background-color: #00ff90;
+    width: 92px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.f-header {
+    height: 7%;
+    width: 100%;
+    border: 1px solid #808080;
+}
+
+    .f-header > p {
+        height: 40px;
+        width: 400px;
+        border: 1px solid #ccc;
+        margin-top: 8px;
+        float: right;
+    }
+
+    .f-header input {
+        height: 100%;
+        width: 306px;
+        border: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .f-header button i {
+        margin: 0;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .f-header > p:hover {
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+
+.f-body {
+    width: 100%;
+    height: 822.19px;
+}
+
+.f-form {
+    width: 100%;
+    height: 86%;
+}
+
+    .f-form .upDown button {
+        width: 80px;
+        height: 31px;
+        margin: 0 10px;
+        color: #808080;
+        /* background-color: #F0FFFF; */
+        border: 1px solid #ddd;
+    }
+
+    .f-form .upDown {
+        padding: 0px;
+    }
+
+    .f-form .option {
+        padding: 0px;
+    }
+
+
+    .f-form .upDown button {
+        width: 80px;
+        height: 29px;
+        margin: 0 10px;
+        color: #808080;
+        /*background-color:#F0FFFF;*/
+        border: 1px solid #ddd;
+    }
+
+    .f-form .option button {
+        width: 80px;
+        height: 29px;
+        margin: 0 3px;
+        color: #fff;
+    }
+
+.f-footer {
+    width: 100%;
+    height: 7%;
+    border: 1px solid #808080;
+    padding-top: 10px;
+}
+
+.delete {
+    background-color: #F08080;
+}
+
+.update {
+    background-color: #98FB98;
+}
+
+.detail {
+    background-color: #87CEFA;
+}

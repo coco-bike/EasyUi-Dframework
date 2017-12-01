@@ -1,0 +1,164 @@
+﻿/*=======初始化======*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: '微软雅黑', Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none; /*禁止拉伸*/
+    height: 200px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    /*border-radius: 5px;*/
+    border: 1px solid #ccc;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    color: #ddd;
+}
+/*=======初始化        end======*/
+body {
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    background-color: #1F1F1F;
+    width: 1219px;
+    height: 966px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #333;
+    width: 16%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .nav li {
+        display: inline-block;
+        width: 100%;
+        line-height: 50px;
+        margin-top: 33px;
+        font-size: 20px;
+    }
+          .nav li a {
+            display: inline-block;
+            width: 100%;
+            line-height: 50px;
+            cursor:pointer;
+        }
+.nav_hover {
+    background-color: #0078D7;
+}
+
+.content {
+    width: 84%;
+    height: 966px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 15px;
+    position:relative;
+}
+    .content .btnGroup {
+        margin-top:30px;
+         text-align:left;
+    }
+.btnGroup input[type=button] {
+    display:inline-block;
+    vertical-align:top;
+    background-color:#2b2b2b;
+    color:#fff;
+    border:1px solid #626262; 
+    font-size:18px;
+       height:40px;
+}
+.btnGroup input[type=button]:lang(collect) {
+   width:147px;
+   color:#525252;
+   margin:0 260px 0 50px;
+}
+
+    .btnGroup input[type=button]:not(:first-child) {
+        width:147px;
+        margin-right:32px;
+    }
+.source {
+    padding-left:83px;
+    text-align:left;
+}
+
+.source li{
+    display:inline-block;
+    vertical-align:top;
+    width:197px;
+    margin-right:54px;
+    margin-top:52px;
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    position:relative;
+}
+    .source li .checkBox {
+        display:inline-block;
+        vertical-align:top;
+        width:32px;
+        height:32px;
+        background-color:#1F1F1F;
+        border:1px solid #696969;
+        position:absolute;
+        top:123px;
+        left:165px;
+    }
+.checkBox-hover {
+    background:url(/Imgs/dhao.png) no-repeat center;
+}
+
+    .source li P:first-child {
+        margin-bottom:25px;
+    }
+    .source li img {
+        width:100%;
+        height:155px;
+        background-color:#2B2B2B;
+        border:1px solid #696969;
+    }
+.page_wrap {
+    margin-top:78px;
+    font-size:17px;
+    position:absolute;
+    top:830px;
+    left:600px;
+}

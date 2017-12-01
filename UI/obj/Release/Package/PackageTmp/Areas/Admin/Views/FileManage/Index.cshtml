@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Content/Admin/script/admin_PageBar.js"></script>
+<link href="~/Content/Admin/style/admin_PageBar.css" rel="stylesheet" />
+<link href="~/Content/Admin/style/admin_FileManage.css" rel="stylesheet" />
+<script src="~/Content/Admin/script/admin_M_FileManage.js"></script>
+<div class="f-body">
+    <div class="f-header">
+        <p>
+            <input v-model="searchName" /><button v-on:click="search"><i class="iconfont">&#xe60b;</i></button>
+        </p>
+    </div>
+    <div class="f-form">
+        <com_table v-bind:rows="formData"></com_table>
+    </div>
+    <div class="f-footer">
+        <div class="page_wrap" id="J_page_wrap"></div>
+    </div>
+</div>
+
+<template id="com_form">
+    <table>
+        <thead>
+            <tr>
+                <th style="width:120px">编号</th>
+                <th style="width: 150px">昵称</th>
+                <th style="width:380px">源文件路径</th>
+                <th style="width: 380px">下载路径</th>
+                <th style="width: 190px">上传时间</th>
+                <th style="width:121px">审核状态</th>
+                <th style="width: 120px">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <template v-for="row in rows" track-by="row.id">
+                <tr>
+                    <td style="width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span>{{row.Id}}</span></td>
+                    <td style="width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span>{{row.NickName}}</span></td>
+                    <td style="width: 380px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span>{{row.OldUrl}}</span></td>
+                    <td style="width: 380px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span>{{row.DownloadUrl}}</span></td>
+                    <td style="width: 190px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span>{{row.UpdateTime}}</span></td>
+                    <td style="width: 121px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span v-if="row.Status == 0">审核中</span><span v-if="row.Status == 1">审核通过</span></td>
+                    <td style="width: 120px; padding: 2px" class="option"><button v-if="row.Status == 0"  class="detail" v-on:click="verifyFile(row.Id,1)">审核</button><button v-if="row.Status == 1" class="delete" v-on:click="verifyFile(row.Id,0)">取消审核</button></td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+</template>
+<script src="~/Content/Admin/script/admin_TEP_FileManage.js"></script>
+<script src="~/Content/Admin/script/admin_VM_FileManage.js"></script>

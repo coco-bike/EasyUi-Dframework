@@ -1,0 +1,59 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.IO"#>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Reflection" #>
+<#@ output extension=".cs" #>
+<#@ include file="T4Toolbox.tt"#>
+<#@ include file="BaseDalTemplate.ttinclude"#>
+<#@ include file="DalTemplate.ttinclude" #>
+<#@ include file="DbContextOnly.ttinclude" #>
+<#
+
+
+		 string currentPath = Path.GetDirectoryName(Host.TemplateFile);//获取至T4文件夹的绝对路径
+		 string projectPath =currentPath.Substring(0, currentPath.LastIndexOf(@"\"));//获取项目的绝对路径
+
+		//**************************************根据实际修改**************************************
+		  string modelProjectName="Model";
+		  string toFilePath=projectPath+"\\"+"Base";//生成文件的路径
+	   //******************************************************************************************
+
+	   	  //=======================路径操作=======================
+		 string solutionPath=projectPath.Substring(0, projectPath.LastIndexOf(@"\"));//获取解决方案的绝对路径（根目录）
+		string modelLayerPath=solutionPath+"\\"+modelProjectName+"\\bin\\Debug\\"+modelProjectName+".dll";//数据访问层内实体的dll文件路径
+		//******************************************************************************************
+
+
+		//默认生成文件名为实体名称
+		string end="Dal";//在实体名称后加  例如实体名称为:UserInfo   ,end为"Service"生成文件为UserInfoService
+		string begin="";//在实体名称前加 
+        byte[] fileData = File.ReadAllBytes(modelLayerPath);
+        Assembly assembly = Assembly.Load(fileData);
+         Type[]types=   assembly.GetTypes();
+		 string modelNameSpace=types[0].Namespace;
+
+		//=======================根据实体生成所有Dal=======================
+		 foreach(Type type in types)
+		 {
+			if(type.Name=="MyContext" || !type.Name.Contains("Model")) continue;//排除MyContext实体类
+			DalTemplate template=new DalTemplate(begin,type.Name,end,modelNameSpace);
+			template.Output.Encoding = Encoding.UTF8;
+		    template.RenderToFile(Path.Combine(toFilePath, template.FileName));
+		 }
+	   string contextNameSpace= 	types.Where(tp => tp.Name == "MyContext").FirstOrDefault().Namespace;
+
+		//=======================生成父类BaseDal=======================
+		BaseDalTemplate baseTemplate=new BaseDalTemplate(contextNameSpace);
+		baseTemplate.Output.Encoding = Encoding.UTF8;
+		baseTemplate.RenderToFile(Path.Combine(toFilePath, baseTemplate.FileName));
+
+
+		//=======================生成DbContextOnly=======================
+		DbContextOnly db=new DbContextOnly(contextNameSpace);
+		db.Output.Encoding = Encoding.UTF8;
+		db.RenderToFile(Path.Combine(toFilePath, db.FileName));
+
+#>

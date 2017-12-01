@@ -1,0 +1,69 @@
+﻿@{
+    ViewBag.Title = "AccountLevel";
+}
+<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<link href="~/Content/Web/style/web_AccountLevel.css" rel="stylesheet" />
+<div class="container">
+    <div class="nav">
+        <ul>
+            <li><a  v-on:click="nav_Userinfo">用户信息</a></li>
+            <li class="nav_hover"><a v-on:click="nav_AccountLevel">账户级别</a></li>
+            <li><a v-on:click="nav_MyCollection">我的收藏</a></li>
+            @*<li><a v-on:click="nav_MyProduct">我的作品</a></li>*@
+            <li><a v-on:click="nav_DownloadHistory">历史下载</a></li>
+        </ul>
+    </div><!--
+    --><div class="content" >
+    <div class="header">
+        <p><span><label>用户名</label>&nbsp;&nbsp;<a href="#">退出</a></span><span class="line"></span><span><a href="#">用户帮助</a></span><span class="line"></span><span><a href="#">在线客服</a></span></p>
+    </div>
+    <div class="sectionA">
+        <div class="first-line"><i class="btn-school"><span>学校用户</span></i><i class="btn-business"><span>商业用户</span></i></div>
+        <div class="second-line">
+            <i class="oneYear">
+                <span>1年149元</span>
+                <span>12.4元/月</span>
+            </i>
+            <i class="threeMonth">
+                <span>3个月39元</span>
+                <span>13元/月</span>
+            </i>
+            <i class="oneMonth">
+                <span>15月/月</span>
+                <span>单月会员</span>
+            </i>
+        </div>
+    </div>
+    <div class="sectionB">
+        <p class="scanPay"><span>扫码支付</span><i class="scanPay-sel"><span>支付平台</span></i><i><span>网银支付</span></i></p>
+        <p class="selPlatform"><span>选择平台:</span><i class="Alipay"></i><i class="Tenpay"></i></p>
+        <p class="money"><span>应付金额:</span><span><strong>15</strong>元</span></p>
+        <p lang="btn-open"><button>立即开通</button></p>
+        <p class="article"><input type="checkbox" /><span>同意并接受《迅雷会员服务条款》</span></p>
+    </div>
+</div><!--
+      --><div class="contentPay" style="display:none">
+    <div class="partA">
+        <img />
+        <div>
+            <p lang="uName"><span>用户名</span></p>
+            <p lang="user"><span>普通用户</span></p>
+            <p lang="upgrade"><span>升级为学校用户</span><span>升级为商业用户</span></p>
+        </div>
+    </div>
+    <div class="partB">
+        <p>用户特权</p>
+        <table cellspacing="0" cellpadding="0">
+            <!---->
+            <thead>
+                <tr><th lang="grey">普通用户</th><th lang="blue">学校用户</th><th lang="yellow">商业用户</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>个人空间100M</td><td>个人空间500M</td><td>个人空间1000M</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+<script src="~/Content/Web/script/web_VM_UserDetail_AccountLevel.js"></script>

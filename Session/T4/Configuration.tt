@@ -1,0 +1,65 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.IO"#>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Reflection" #>
+<#@ output extension=".cs" #>
+<#@ include file="T4Toolbox.tt"#>
+<#@ include file="DalFactoryTemplate.ttinclude"#>
+<#@ include file="DbSessionTemplate.ttinclude"#>
+<#@ include file="DbSessionOnly.ttinclude"#>
+<#
+
+
+		 string currentPath = Path.GetDirectoryName(Host.TemplateFile);//获取至T4文件夹的绝对路径
+		 string projectPath =currentPath.Substring(0, currentPath.LastIndexOf(@"\"));//获取项目的绝对路径
+
+
+		//**************************************根据实际修改**************************************
+		  string modelProjectName="Model";
+		  string idalProjectName="IDal";
+		  string dalProjectName="Dal";
+		  string toFilePath=projectPath+"\\"+"Base";//生成文件的路径
+	   //******************************************************************************************
+
+
+	   	   	//=======================路径操作=======================
+		 string solutionPath=projectPath.Substring(0, projectPath.LastIndexOf(@"\"));//获取解决方案的绝对路径（根目录）
+		 	
+		string modelLayerPath=solutionPath+"\\"+modelProjectName+"\\bin\\Debug\\"+modelProjectName+".dll";//Model的dll文件路径
+		string idalLayerPath=solutionPath+"\\"+idalProjectName+"\\bin\\Debug\\"+idalProjectName+".dll";//IDal的dll文件路径
+		string dalLayerPath=solutionPath+"\\"+dalProjectName+"\\bin\\Debug\\"+dalProjectName+".dll";//Dal的dll文件路径
+	   //=======================================================
+
+		byte[] fileDataModel = File.ReadAllBytes(modelLayerPath);
+		byte[] fileDataIDal = File.ReadAllBytes(idalLayerPath);
+		byte[] fileDataDal = File.ReadAllBytes(dalLayerPath);
+        Assembly assemblyModel = Assembly.Load(fileDataModel);
+		Assembly assemblyIDal = Assembly.Load(fileDataIDal);
+		Assembly assemblyDal = Assembly.Load(fileDataDal);
+        Type[] typesModel=   assemblyModel.GetTypes();
+	   Type[] typesIDal=assemblyIDal.GetTypes();
+	   Type[] typesDal=assemblyDal.GetTypes();
+	   string idalNameSpace=typesIDal[0].Namespace;
+	    string dalNameSpace=typesDal[0].Namespace;
+
+
+		//=======================生成DalFactory=======================
+		DalFactoryTemplate template=new DalFactoryTemplate(typesModel.Where(t=>t.Name!="MyContext"&&t.Name.Contains("Model")).ToArray(),idalNameSpace);
+		template.Output.Encoding = Encoding.UTF8;
+		template.RenderToFile(Path.Combine(toFilePath, template.FileName));
+
+
+		//=======================生成DbSession=======================
+		DbSessionTemplate dbTemplate=new DbSessionTemplate(typesModel.Where(t=>t.Name!="MyContext"&&t.Name.Contains("Model")).ToArray(),idalNameSpace,dalNameSpace);
+		dbTemplate.Output.Encoding = Encoding.UTF8;
+		dbTemplate.RenderToFile(Path.Combine(toFilePath, dbTemplate.FileName));
+
+				
+		//=======================生成DbSessionOnly=======================
+		DbSessionOnly db=new DbSessionOnly(idalNameSpace);
+		db.Output.Encoding = Encoding.UTF8;
+		db.RenderToFile(Path.Combine(toFilePath, db.FileName));
+#>

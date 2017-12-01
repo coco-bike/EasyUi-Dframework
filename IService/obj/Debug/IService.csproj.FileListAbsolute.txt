@@ -1,0 +1,202 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\IService.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\IService.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\obj\Debug\IService.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IService\obj\Debug\IService.pdb
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IService.dll
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IService.pdb
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IDal.dll
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\Model.dll
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\EntityFramework.dll
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IDal.pdb
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\Model.pdb
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\EntityFramework.xml
+F:\EF快速开发框架\EF快速开发框架\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\EF快速开发框架\EF快速开发框架\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+F:\EF快速开发框架\EF快速开发框架\IService\obj\Debug\IService.dll
+F:\EF快速开发框架\EF快速开发框架\IService\obj\Debug\IService.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IService.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IService.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\obj\Debug\IService.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IService\obj\Debug\IService.pdb
+F:\EF快速开发框架\IService\bin\Debug\IService.dll
+F:\EF快速开发框架\IService\bin\Debug\IService.pdb
+F:\EF快速开发框架\IService\bin\Debug\IDal.dll
+F:\EF快速开发框架\IService\bin\Debug\Model.dll
+F:\EF快速开发框架\IService\bin\Debug\EntityFramework.dll
+F:\EF快速开发框架\IService\bin\Debug\IDal.pdb
+F:\EF快速开发框架\IService\bin\Debug\Model.pdb
+F:\EF快速开发框架\IService\bin\Debug\EntityFramework.xml
+F:\EF快速开发框架\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\EF快速开发框架\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+F:\EF快速开发框架\IService\obj\Debug\IService.dll
+F:\EF快速开发框架\IService\obj\Debug\IService.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\IService.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\IService.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\obj\Debug\IService.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IService\obj\Debug\IService.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\IService.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\IService.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\obj\Debug\IService.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IService\obj\Debug\IService.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\IService.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\IService.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\obj\Debug\IService.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IService\obj\Debug\IService.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\IService.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\IService.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\Dal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\EntityFramework.Extended.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\Dal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\EntityFramework.Extended.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\Newtonsoft.Json.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\obj\Debug\IService.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IService\obj\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\IService\obj\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IService\obj\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\obj\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IService\obj\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\obj\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IService\obj\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\IService.pdb
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\BVM\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\BVM\IService\obj\Debug\IService.dll
+C:\Users\hihi_zh\Desktop\BVM\IService\obj\Debug\IService.pdb
+G:\Git\DevelopmentFramework\IService\bin\Debug\IService.dll
+G:\Git\DevelopmentFramework\IService\bin\Debug\IService.pdb
+G:\Git\DevelopmentFramework\IService\bin\Debug\Dal.dll
+G:\Git\DevelopmentFramework\IService\bin\Debug\IDal.dll
+G:\Git\DevelopmentFramework\IService\bin\Debug\Model.dll
+G:\Git\DevelopmentFramework\IService\bin\Debug\EntityFramework.dll
+G:\Git\DevelopmentFramework\IService\bin\Debug\EntityFramework.Extended.dll
+G:\Git\DevelopmentFramework\IService\bin\Debug\Dal.pdb
+G:\Git\DevelopmentFramework\IService\bin\Debug\IDal.pdb
+G:\Git\DevelopmentFramework\IService\bin\Debug\Model.pdb
+G:\Git\DevelopmentFramework\IService\bin\Debug\EntityFramework.xml
+G:\Git\DevelopmentFramework\IService\bin\Debug\EntityFramework.Extended.xml
+G:\Git\DevelopmentFramework\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\DevelopmentFramework\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+G:\Git\DevelopmentFramework\IService\obj\Debug\IService.dll
+G:\Git\DevelopmentFramework\IService\obj\Debug\IService.pdb
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\IService.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\IService.pdb
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\Dal.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\IDal.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\Model.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\EntityFramework.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\EntityFramework.Extended.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\Dal.pdb
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\IDal.pdb
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\Model.pdb
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\EntityFramework.xml
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\EntityFramework.Extended.xml
+G:\Git\EasyUi+DevelopmentFramework\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+G:\Git\EasyUi+DevelopmentFramework\IService\obj\Debug\IService.dll
+G:\Git\EasyUi+DevelopmentFramework\IService\obj\Debug\IService.pdb

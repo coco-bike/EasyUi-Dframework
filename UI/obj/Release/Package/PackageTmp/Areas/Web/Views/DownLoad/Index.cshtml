@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Web/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Content/Web/script/web_M_DownLod.js"></script>
+<link href="~/Content/Web/style/web_DownLoad.css" rel="stylesheet" />
+<div class="downLoad">
+    <div class="dt-header">
+        <p><span id="modelName"></span></p>
+        <ul class="pic-change">
+            <li class="pic"><img src="" id="pic1" /></li>
+            <li class="pic" style="display:none"><img src="" id="pic2" /></li>
+            <li class="pic" style="display:none"><img src="" id="pic3" /></li>
+            <li>
+                <ul class="change-btn">
+                    <li index="1"><a href="javascript:void(0)" v-on:click="btnChange(0,$event)" class="change-btn-select"></a></li>
+                    <li index="2"><a href="javascript:void(0)" v-on:click="btnChange(1,$event)"></a></li>
+                    <li index="3"><a href="javascript:void(0)" v-on:click="btnChange(2,$event)"></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="dt-content">
+        <div class="content-left">
+            <p><button v-on:click="downModel"></button><button v-on:click="collectModel" class="whetherCollect"></button></p>
+            <p><span>模型介绍</span></p>
+            <p id="modelIntroduce" style="height:200px;overflow:hidden;"></p>
+        </div><!--
+        --><div class="content-right">
+            <p><span>公司：</span><span id="company"></span></p>
+            <div>
+                <p>
+                    <span>标签：</span>
+                </p>
+                <ul id="tags"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Content/Web/script/web_VM_DownLod.js"></script>

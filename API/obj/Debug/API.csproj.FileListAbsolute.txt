@@ -1,0 +1,468 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\API.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\SwaggerApiDemo.XML
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\API.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\API.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Antlr3.Runtime.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Autofac.Configuration.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Autofac.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Autofac.Integration.Mvc.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Common.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\IService.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\log4net.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Microsoft.Data.Edm.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Microsoft.Data.OData.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Microsoft.Web.Infrastructure.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Service.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Swagger.Net.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Swashbuckle.Core.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Net.Http.Formatting.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Spatial.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Cors.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Helpers.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.Cors.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.OData.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.Tracing.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.WebHost.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Mvc.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Optimization.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Providers.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Razor.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.WebPages.Deployment.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.WebPages.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.WebPages.Razor.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\WebActivator.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\WebActivatorEx.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\WebGrease.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Session.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Dal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\EntityFramework.Extended.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Common.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\IService.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Service.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Autofac.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Autofac.Integration.Mvc.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Newtonsoft.Json.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Swagger.Net.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Swagger.Net.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Net.Http.Formatting.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.Cors.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.WebHost.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Helpers.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Mvc.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Razor.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.WebPages.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.WebPages.Deployment.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.WebPages.Razor.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.Tracing.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Web.Http.OData.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Microsoft.Data.Edm.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Microsoft.Data.OData.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\System.Spatial.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Session.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\Dal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\EntityFramework.Extended.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.Helpers.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.Mvc.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.Optimization.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.Providers.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.Razor.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.WebPages.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.Http.Tracing.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Web.Http.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\de\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\es\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\fr\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\it\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ja\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ko\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ru\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\de\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\es\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\fr\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\it\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ja\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ko\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ru\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\de\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\es\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\fr\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\it\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ja\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ko\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\ru\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hans\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\bin\zh-Hant\System.Spatial.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\obj\Debug\API.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\API\obj\Debug\API.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\API.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\SwaggerApiDemo.XML
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\API.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\API.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Antlr3.Runtime.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Autofac.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Autofac.Integration.Mvc.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\log4net.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Microsoft.Data.Edm.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Microsoft.Data.OData.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Service.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Swagger.Net.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Swashbuckle.Core.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Net.Http.Formatting.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Spatial.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Cors.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Helpers.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.Cors.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.OData.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.Tracing.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.WebHost.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Mvc.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Optimization.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Providers.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.WebPages.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\WebActivator.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\WebActivatorEx.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\WebGrease.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Service.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Autofac.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Autofac.Integration.Mvc.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Swagger.Net.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Swagger.Net.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Net.Http.Formatting.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.Cors.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.WebHost.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Helpers.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Mvc.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.WebPages.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.Tracing.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Web.Http.OData.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Microsoft.Data.Edm.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Microsoft.Data.OData.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\System.Spatial.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.Http.Tracing.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Web.Http.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\de\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\es\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\fr\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\it\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ja\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ko\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\ru\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\API\obj\Debug\API.dll
+C:\Users\hihi_zh\Desktop\ModelMall\API\obj\Debug\API.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\API.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\SwaggerApiDemo.XML
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\API.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\API.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Antlr3.Runtime.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Autofac.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Autofac.Integration.Mvc.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\log4net.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Microsoft.Data.Edm.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Microsoft.Data.OData.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Service.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Swagger.Net.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Swashbuckle.Core.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Net.Http.Formatting.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Spatial.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Cors.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Helpers.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.Cors.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.OData.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.Tracing.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.WebHost.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Mvc.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Optimization.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Providers.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.WebPages.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\WebActivator.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\WebActivatorEx.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\WebGrease.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Service.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Autofac.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Autofac.Integration.Mvc.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Swagger.Net.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Swagger.Net.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Net.Http.Formatting.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.Cors.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.WebHost.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Helpers.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Mvc.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.WebPages.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.Tracing.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Web.Http.OData.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Microsoft.Data.Edm.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Microsoft.Data.OData.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\System.Spatial.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.Http.Tracing.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Web.Http.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\de\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\es\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\fr\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\it\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ja\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ko\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\ru\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\obj\Debug\API.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\API\obj\Debug\API.pdb
+G:\Git\DevelopmentFramework\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+G:\Git\DevelopmentFramework\API\obj\Debug\API.dll
+G:\Git\DevelopmentFramework\API\obj\Debug\API.pdb
+G:\Git\DevelopmentFramework\API\bin\API.dll.config
+G:\Git\DevelopmentFramework\API\bin\SwaggerApiDemo.XML
+G:\Git\DevelopmentFramework\API\bin\API.dll
+G:\Git\DevelopmentFramework\API\bin\API.pdb
+G:\Git\DevelopmentFramework\API\bin\Antlr3.Runtime.dll
+G:\Git\DevelopmentFramework\API\bin\Autofac.Configuration.dll
+G:\Git\DevelopmentFramework\API\bin\Autofac.dll
+G:\Git\DevelopmentFramework\API\bin\Autofac.Integration.Mvc.dll
+G:\Git\DevelopmentFramework\API\bin\Common.dll
+G:\Git\DevelopmentFramework\API\bin\EntityFramework.dll
+G:\Git\DevelopmentFramework\API\bin\EntityFramework.SqlServer.dll
+G:\Git\DevelopmentFramework\API\bin\IService.dll
+G:\Git\DevelopmentFramework\API\bin\log4net.dll
+G:\Git\DevelopmentFramework\API\bin\Microsoft.Data.Edm.dll
+G:\Git\DevelopmentFramework\API\bin\Microsoft.Data.OData.dll
+G:\Git\DevelopmentFramework\API\bin\Microsoft.Web.Infrastructure.dll
+G:\Git\DevelopmentFramework\API\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Git\DevelopmentFramework\API\bin\Model.dll
+G:\Git\DevelopmentFramework\API\bin\Newtonsoft.Json.dll
+G:\Git\DevelopmentFramework\API\bin\Service.dll
+G:\Git\DevelopmentFramework\API\bin\Swagger.Net.dll
+G:\Git\DevelopmentFramework\API\bin\Swashbuckle.Core.dll
+G:\Git\DevelopmentFramework\API\bin\System.Net.Http.Formatting.dll
+G:\Git\DevelopmentFramework\API\bin\System.Spatial.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Cors.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Helpers.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.Cors.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.OData.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.Tracing.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.WebHost.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Mvc.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Optimization.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Providers.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.Razor.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.WebPages.Deployment.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.WebPages.dll
+G:\Git\DevelopmentFramework\API\bin\System.Web.WebPages.Razor.dll
+G:\Git\DevelopmentFramework\API\bin\WebActivator.dll
+G:\Git\DevelopmentFramework\API\bin\WebActivatorEx.dll
+G:\Git\DevelopmentFramework\API\bin\WebGrease.dll
+G:\Git\DevelopmentFramework\API\bin\IDal.dll
+G:\Git\DevelopmentFramework\API\bin\Session.dll
+G:\Git\DevelopmentFramework\API\bin\Dal.dll
+G:\Git\DevelopmentFramework\API\bin\EntityFramework.Extended.dll
+G:\Git\DevelopmentFramework\API\bin\Common.pdb
+G:\Git\DevelopmentFramework\API\bin\IService.pdb
+G:\Git\DevelopmentFramework\API\bin\Model.pdb
+G:\Git\DevelopmentFramework\API\bin\Service.pdb
+G:\Git\DevelopmentFramework\API\bin\Autofac.xml
+G:\Git\DevelopmentFramework\API\bin\Autofac.Integration.Mvc.xml
+G:\Git\DevelopmentFramework\API\bin\EntityFramework.xml
+G:\Git\DevelopmentFramework\API\bin\EntityFramework.SqlServer.xml
+G:\Git\DevelopmentFramework\API\bin\Newtonsoft.Json.xml
+G:\Git\DevelopmentFramework\API\bin\Swagger.Net.pdb
+G:\Git\DevelopmentFramework\API\bin\Swagger.Net.xml
+G:\Git\DevelopmentFramework\API\bin\System.Net.Http.Formatting.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.Cors.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.WebHost.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Helpers.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Mvc.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Razor.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.WebPages.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.WebPages.Deployment.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.WebPages.Razor.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.Tracing.xml
+G:\Git\DevelopmentFramework\API\bin\System.Web.Http.OData.xml
+G:\Git\DevelopmentFramework\API\bin\Microsoft.Data.Edm.xml
+G:\Git\DevelopmentFramework\API\bin\Microsoft.Data.OData.xml
+G:\Git\DevelopmentFramework\API\bin\System.Spatial.xml
+G:\Git\DevelopmentFramework\API\bin\IDal.pdb
+G:\Git\DevelopmentFramework\API\bin\Session.pdb
+G:\Git\DevelopmentFramework\API\bin\Dal.pdb
+G:\Git\DevelopmentFramework\API\bin\EntityFramework.Extended.xml
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\EntityFramework.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.Helpers.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.Mvc.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.Optimization.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.Providers.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.Razor.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.WebPages.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.Http.Tracing.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Web.Http.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\de\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\es\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\it\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\Git\DevelopmentFramework\API\bin\de\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\es\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\fr\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\it\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ja\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ko\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ru\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\Git\DevelopmentFramework\API\bin\de\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\es\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\fr\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\it\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ja\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ko\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\ru\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hans\System.Spatial.resources.dll
+G:\Git\DevelopmentFramework\API\bin\zh-Hant\System.Spatial.resources.dll

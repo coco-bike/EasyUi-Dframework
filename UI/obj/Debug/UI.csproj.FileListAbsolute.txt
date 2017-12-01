@@ -1,0 +1,364 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\UI.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\UI.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\UI.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Antlr3.Runtime.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Autofac.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Autofac.Integration.Mvc.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Common.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\IService.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\log4net.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Microsoft.Web.Infrastructure.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Service.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Net.Http.Formatting.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Http.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Http.WebHost.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Mvc.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Optimization.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Providers.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Razor.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.WebPages.Deployment.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.WebPages.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.WebPages.Razor.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\WebGrease.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Session.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Autofac.Configuration.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Dal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\EntityFramework.Extended.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Common.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\IService.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Service.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Autofac.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Autofac.Integration.Mvc.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Newtonsoft.Json.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Net.Http.Formatting.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Http.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Http.WebHost.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Mvc.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.Razor.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.WebPages.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.WebPages.Deployment.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\System.Web.WebPages.Razor.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Session.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\Dal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\EntityFramework.Extended.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\System.Web.Providers.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\obj\Debug\UI.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\UI\obj\Debug\UI.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\UI.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\UI.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\UI.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Antlr3.Runtime.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\log4net.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Service.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Net.Http.Formatting.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Http.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Http.WebHost.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Mvc.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Optimization.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Providers.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.WebPages.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\WebGrease.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Service.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Net.Http.Formatting.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Http.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Http.WebHost.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Mvc.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.WebPages.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\UI\obj\Debug\UI.dll
+C:\Users\hihi_zh\Desktop\ModelMall\UI\obj\Debug\UI.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\UI.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\UI.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\UI.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Antlr3.Runtime.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Common.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\IService.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\log4net.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Service.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Net.Http.Formatting.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Http.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Http.WebHost.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Mvc.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Optimization.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Providers.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.WebPages.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\WebGrease.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Common.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\IService.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Service.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Net.Http.Formatting.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Http.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Http.WebHost.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Mvc.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.WebPages.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\obj\Debug\UI.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\UI\obj\Debug\UI.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\EF快速开发框架\UI\obj\Debug\UI.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\UI\obj\Debug\UI.pdb
+C:\Users\hihi_zh\Desktop\BVM\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\UI.dll.config
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\UI.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\UI.pdb
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Antlr3.Runtime.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Common.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\IService.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\log4net.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Model.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Service.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Net.Http.Formatting.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Http.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Http.WebHost.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Mvc.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Optimization.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Providers.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Razor.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.WebPages.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\WebGrease.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Common.pdb
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\IService.pdb
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Model.pdb
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Service.pdb
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Net.Http.Formatting.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Http.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Http.WebHost.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Mvc.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.Razor.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.WebPages.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\obj\Debug\UI.dll
+C:\Users\hihi_zh\Desktop\BVM\UI\obj\Debug\UI.pdb
+G:\Git\DevelopmentFramework\UI\bin\UI.dll.config
+G:\Git\DevelopmentFramework\UI\bin\UI.dll
+G:\Git\DevelopmentFramework\UI\bin\UI.pdb
+G:\Git\DevelopmentFramework\UI\bin\Antlr3.Runtime.dll
+G:\Git\DevelopmentFramework\UI\bin\Common.dll
+G:\Git\DevelopmentFramework\UI\bin\EntityFramework.dll
+G:\Git\DevelopmentFramework\UI\bin\EntityFramework.SqlServer.dll
+G:\Git\DevelopmentFramework\UI\bin\IService.dll
+G:\Git\DevelopmentFramework\UI\bin\log4net.dll
+G:\Git\DevelopmentFramework\UI\bin\Microsoft.Web.Infrastructure.dll
+G:\Git\DevelopmentFramework\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Git\DevelopmentFramework\UI\bin\Model.dll
+G:\Git\DevelopmentFramework\UI\bin\Newtonsoft.Json.dll
+G:\Git\DevelopmentFramework\UI\bin\Service.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Net.Http.Formatting.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Http.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Http.WebHost.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Mvc.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Optimization.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Providers.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Razor.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.WebPages.Deployment.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.WebPages.dll
+G:\Git\DevelopmentFramework\UI\bin\System.Web.WebPages.Razor.dll
+G:\Git\DevelopmentFramework\UI\bin\WebGrease.dll
+G:\Git\DevelopmentFramework\UI\bin\IDal.dll
+G:\Git\DevelopmentFramework\UI\bin\Session.dll
+G:\Git\DevelopmentFramework\UI\bin\Autofac.Configuration.dll
+G:\Git\DevelopmentFramework\UI\bin\Dal.dll
+G:\Git\DevelopmentFramework\UI\bin\EntityFramework.Extended.dll
+G:\Git\DevelopmentFramework\UI\bin\Common.pdb
+G:\Git\DevelopmentFramework\UI\bin\IService.pdb
+G:\Git\DevelopmentFramework\UI\bin\Model.pdb
+G:\Git\DevelopmentFramework\UI\bin\Service.pdb
+G:\Git\DevelopmentFramework\UI\bin\EntityFramework.xml
+G:\Git\DevelopmentFramework\UI\bin\EntityFramework.SqlServer.xml
+G:\Git\DevelopmentFramework\UI\bin\Newtonsoft.Json.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Net.Http.Formatting.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Http.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Http.WebHost.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Mvc.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Web.Razor.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Web.WebPages.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Web.WebPages.Deployment.xml
+G:\Git\DevelopmentFramework\UI\bin\System.Web.WebPages.Razor.xml
+G:\Git\DevelopmentFramework\UI\bin\IDal.pdb
+G:\Git\DevelopmentFramework\UI\bin\Session.pdb
+G:\Git\DevelopmentFramework\UI\bin\Dal.pdb
+G:\Git\DevelopmentFramework\UI\bin\EntityFramework.Extended.xml
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\EntityFramework.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\System.Web.Providers.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\Git\DevelopmentFramework\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\Git\DevelopmentFramework\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+G:\Git\DevelopmentFramework\UI\obj\Debug\UI.dll
+G:\Git\DevelopmentFramework\UI\obj\Debug\UI.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\UI.dll.config
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\UI.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\UI.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Antlr3.Runtime.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Common.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\EntityFramework.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\EntityFramework.SqlServer.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\IService.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\log4net.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Microsoft.Web.Infrastructure.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Model.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Newtonsoft.Json.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Service.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Net.Http.Formatting.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Http.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Http.WebHost.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Mvc.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Optimization.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Providers.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Razor.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.WebPages.Deployment.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.WebPages.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.WebPages.Razor.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\WebGrease.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\IDal.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Session.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Autofac.Configuration.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Dal.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\EntityFramework.Extended.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Common.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\IService.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Model.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Service.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\EntityFramework.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\EntityFramework.SqlServer.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Newtonsoft.Json.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Net.Http.Formatting.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Http.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Http.WebHost.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Mvc.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.Razor.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.WebPages.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.WebPages.Deployment.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\System.Web.WebPages.Razor.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\IDal.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Session.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\Dal.pdb
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\EntityFramework.Extended.xml
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\EntityFramework.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\System.Web.Optimization.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\System.Web.Providers.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+G:\Git\EasyUi+DevelopmentFramework\UI\obj\Debug\UI.dll
+G:\Git\EasyUi+DevelopmentFramework\UI\obj\Debug\UI.pdb

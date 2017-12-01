@@ -1,0 +1,190 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Areas/script/pageBar.js"></script>
+<link href="~/Areas/content/pageBar.css" rel="stylesheet" />
+<link href="~/Areas/content/loading.css" rel="stylesheet" />
+<script src="~/Areas/script/admin_M_ModelManage.js"></script>
+
+<link href="~/WebUploader/webuploader.css" rel="stylesheet" />
+<link href="~/WebUploader/style.css" rel="stylesheet" />
+<script src="~/WebUploader/webuploader.js"></script>
+<script src="~/WebUploader/upload.js"></script>
+<link href="~/Areas/content/models.css" rel="stylesheet" />
+@* 遮罩层 *@
+<div class="mask">
+    <form id="addModelForm">
+        <div class="mask-form">
+            <div class="mask-header">
+                <p><span>模&nbsp;&nbsp;&nbsp;&nbsp;型&nbsp;&nbsp;&nbsp;&nbsp;信&nbsp;&nbsp;&nbsp;&nbsp;息</span></p>
+            </div>
+            <div class="mask-body">
+                <div class="mask-body-left">
+                    <div class="Basic">
+                        <p><i class="iconfont">&#xe63f;</i><span class="title">模型名称:</span><input v-model="name" />@*<span class="noEmpty" id="nameEmpty">不能为空</span>*@</p>
+                        <p><i class="iconfont">&#xe63f;</i><span>&nbsp;&nbsp;公&nbsp;&nbsp;司:</span><input v-model="company" />@*<span class="noEmpty" id="companyEmpty">不能为空</span>*@</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;介&nbsp;&nbsp;绍:</span><textarea v-model="description"></textarea></p>
+                    </div>
+                    <p><i class="iconfont">&#xe63f;</i><span>缩略图上传</span>@*<span class="noEmpty" id="thumbEmpty">不能为空</span>*@</p>
+                    <p><progress class="progressBar" value="0" max="100" style="width: 300px;"></progress><span class="percentage"></span><span class="time"></span></p>
+                    <div style="margin-left:28px">
+                        <div class="uploader blue" style="width:570px;margin-left:-30px;">
+                            <input type="text" class="filename" readonly style="width:455px" v-model="thumbUrl" />
+                            <input type="button" name="file" class="button" value="Browse..." style="width:115px" />
+                            <input type="file" size="30" id="thumbUpload" name="fileField" v-on:change="thumbUpload($event)" />
+                            <input type="hidden" id="thumbTag" />
+                            <input type="hidden" id="thumbUrlSave" />
+                        </div>
+                    </div>
+                    <p><i class="iconfont">&#xe63f;</i><span>模型上传</span>@*<span class="noEmpty" id="modelEmpty">不能为空</span>*@</p>
+                    <p><progress class="progressBar" value="0" max="100" style="width: 300px;" id="modelProBar"></progress><span class="percentage" id="modelPer"></span><span class="time"></span></p>
+                    <div style="margin-left:28px">
+                        <div class="uploader blue" style="width:570px;margin-left:-30px;">
+                            <input type="text" class="filename" readonly style="width:455px" v-model="modelUrl" />
+                            <input type="button" name="file" class="button" value="Browse..." style="width:115px" />
+                            <input type="file" size="30" id="modelUpload" name="fileField" v-on:change="modelUpload($event)" />
+                            <input type="hidden" id="modelTag" />
+                            <input type="hidden" id="modelUrlSave" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mask-body-right">
+                    <p><i class="iconfont">&#xe63f;</i><span>图片上传</span>@*<span class="noEmpty" id="picEmpty">不能为空</span>*@</p>
+                    <!--多图片上传-->
+                    <div id="wrapper">
+                        <div id="wrapper-container">
+                            <!--头部，相册选择和格式选择-->
+                            <div id="uploader">
+                                <div class="queueList">
+                                    <div id="dndArea" class="placeholder">
+                                        <div id="filePicker"></div>
+                                    </div>
+                                </div>
+                                <div class="statusBar" style="display:none;">
+                                    <div class="progress">
+                                        <span class="text">0%</span>
+                                        <span class="percentage"></span>
+                                    </div><div class="info"></div>
+                                    <div class="btns">
+                                        <div id="filePicker2"></div><div class="uploadBtn" @*v-on:click="picUpload($event)"*@>开始上传</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--多图片上传   end-->
+                    <div>
+                        <div style="float: left; width: 280px;">
+                            <div><p><span>请选择关联类型</span><span style="color:red;margin-left:40px">{{typeName}}</span></p></div>
+                            <div id="menuTree" class="menuTree"></div>
+                        </div>
+                        <div class="tagInfo" style="display:inline;vertical-align:top;width:280px;">
+                            <p><span>添加标签</span><input style="width:190px" v-model="tag" /><input type="button" v-on:click="addTag()" value="确定" /></p>
+                            <div>
+                                <ul class="tagForm">
+                                    <li v-for="tag in tagArr" style="position:relative">
+                                        <a v-on:click="selTag($event)" v-bind:name="tag.tagName" v-bind:class="tag.class">{{tag.tagName}}</a>
+                                        <a v-on:click="delTag($event)" v-bind:name="tag.tagName">x</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mask-footer">
+                <input type="button" class="btn btn-success btn-lg" value="提交" v-on:click="submit()" /><input type="button" class="btn btn-danger btn-lg" value="取消" v-on:click="cancel()">
+            </div>
+        </div>
+    </form>
+</div>
+@* 遮罩层  end*@
+    <!--全局覆盖层-->
+<div class="layer">
+    <t-loading v-bind:seen="loading_seen"></t-loading>
+</div>
+<!--全局覆盖层       end-->
+<div class="b-body">
+    <div class="b-header">
+        <p>
+            <input v-model="searchName" /><button v-on:click="search"><i class="iconfont">&#xe60b;</i></button>
+        </p>
+        <button v-on:click="addModels"><i class="iconfont">&#xe604;</i><span style="color:#fff;font-size:20px;">新增</span></button>
+    </div>
+    <div class="b-form">
+        <com_table v-bind:rows="formData"></com_table>
+    </div>
+    <div class="b-footer">
+        <div class="page_wrap" id="J_page_wrap"></div>
+    </div>
+</div>
+<template id="com_form">
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 120px">编号</th>
+                    <th style="width: 209px">名称</th>
+                    <th style="width: 200px">类型</th>
+                    @*<th style="width: 120px">价格(元)</th>*@
+                    <th style="width: 220px">下载次数</th>
+                    <th style="width: 220px">收藏次数</th>
+                    <th style="width:260px">上/下架</th>
+                    <th style="width: 260px">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template v-for="row in rows">
+                    <tr>
+                        <td style="width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span>{{row.Id}}</span></td>
+                        <td><div style="width: 209px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; " v-bind:title="row.GoodsName">{{row.GoodsName}}</div></td>
+                        <td><div style="width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; " v-bind:title="row.GoodsName">{{row.TypeName}}</div></td>
+                        @*<td style="width: 100px"><span>{{row.Price}}</span></td>*@
+                        <td style="width: 220px"><span>{{row.DownloadCount}}</span></td>
+                        <td style="width: 220px"><span>{{row.CollectCount}}</span></td>
+                        <td style="width: 260px" class="upDown"><button v-if="row.State == 1" v-on:click="upModel(row.Id)">上架</button><button v-if="row.State == 2" v-on:click="downModel(row.Id)">下架</button></td>
+                        <td style="width: 260px; padding: 2px" class="option"><button class="update" v-on:click="updateReadModel(row.Id)">修改</button><button class="delete" v-on:click="deleteModel(row.Id)">删除</button>@*<button class="detail">详情</button>*@</td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </div>
+</template>
+<template id="loding-component">
+    <div class="loading_Layer" v-if="seen">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+            <p><span>Loading....</span></p>
+        </div>
+    </div>
+</template>
+<script type="text/javascript">
+    Vue.component('t-loading', {
+        template: '#loding-component',
+        props: ['seen']
+    });
+</script>
+<script type="text/javascript">
+    document.onreadystatechange = function () {//当页面加载状态改变的时候执行这个方法. 
+        if (document.readyState == "complete") {//当页面加载状态为完全结束时进入
+            m_loading.loading_seen = false;
+        }
+    }
+    $(function () {
+        $('.webuploader-pick').hover(function () {
+            $(this).toggleClass(' webuploader-pick-hover');
+        }, function () {
+        })
+    })
+</script>
+<script src="~/Areas/script/admin_VM_ModelManage.js"></script>
+<link href="~/Areas/content/treeView.css" rel="stylesheet" />
+<script src="~/Areas/script/treeView.js"></script>
+
+

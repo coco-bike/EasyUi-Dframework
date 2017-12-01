@@ -1,0 +1,67 @@
+﻿.modelInfo {
+    width: 100%;
+    height: 769px;
+    margin-top: 42px;
+}
+
+    .modelInfo div {
+        margin-bottom: 23px;
+    }
+
+        .modelInfo div div {
+            display: inline-block;
+            vertical-align: top;
+            width: 265px;
+            height: 126px;
+            margin-left: 14px;
+        }
+
+            .modelInfo div div:hover {
+                border: 1px solid #0178D6;
+            }
+
+        .modelInfo div img {
+            margin: 24px 10px 24px 10px;
+            display:inline-block;
+            vertical-align:top;
+        }
+
+    .modelInfo > div > div > p span {
+        color: #fff;
+        font-size: 15px;
+        display: inline-block;
+    }
+
+.introduce {
+    width:165px;
+    display:inline-block;
+    margin-top:24px;
+    vertical-align:top;
+}
+
+.tag {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    width: 45px;
+    line-height: 25px;
+    margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.modelInfo > div > div > p span {
+    margin-bottom: 5px;
+}
+
+    .modelInfo > div > div > p span:not(:first-of-type):not(:last-of-type) {
+        background-color: #264357;
+        color: #66C1F0;
+    }
+
+/*.modelInfo > div > div > p {
+    margin-top: 26px;
+    margin-left: 120px;
+}*/

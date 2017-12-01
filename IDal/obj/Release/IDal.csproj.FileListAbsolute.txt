@@ -1,0 +1,16 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\IDal.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\obj\Release\IDal.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\obj\Release\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\obj\Release\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Release\Newtonsoft.Json.xml

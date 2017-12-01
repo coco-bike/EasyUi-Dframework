@@ -1,0 +1,499 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Plugs/EasyUi/jquery.easyui.min.js"></script>
+    <script src="~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js"></script>
+    <link href="~/Plugs/EasyUi/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Plugs/EasyUi/Css/icon.css" rel="stylesheet" />
+    <script src="~/Scripts/utils.js"></script>
+    <title>Index</title>
+    <style>
+        .class-title {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        #tabs {
+            height: 100%;
+        }
+
+            #tabs .tabs-panels {
+                height: 100%;
+            }
+
+            #tabs .panel-htop {
+                height: 100%;
+            }
+
+            #tabs .panel-body-noborder {
+                height: 100%;
+            }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        p {
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body class="easyui-layout">
+    <h2>Basic Layout</h2>
+    <p>The layout contains north,south,west,east and center regions.</p>
+    <div style="margin:20px 0;"></div>
+    <div data-options="region:'north'" style="height:74px" class="class-title">
+        <h1>南京创客教育平台</h1>
+    </div>
+    <div data-options="region:'south',split:true" style="height:23px;">
+        <div class="footer"><p>Copyright © 2017 临界风行. All rights reserved.</p></div>
+    </div>
+    <div data-options="region:'west',split:true" title="West" style="width:170px;">
+        <div class="easyui-accordion" data-options="fit:true,border:false">
+            <div title="系统设置1" data-options="selected:true">
+                <div style="margin: 5px">
+                    <ul class="tree easyui-tree" data-options="animate:true,lines:true">
+                        <li data-options="iconCls:'icon-group'">
+                            <span>基本设置</span>
+                            <ul>
+                                <li data-options="iconCls:'icon-add'">
+                                    <span>test1</span>
+                                </li>
+                                <li data-options="iconCls:'icon-remove'">
+                                    <span>test2</span>
+                                </li>
+                                <li data-options="iconCls:'icon-save'">
+                                    <span>test3</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed',iconCls:'icon-joystick'">
+                            <span>系统设置</span>
+                            <ul>
+                                <li data-options="iconCls:'icon-joystick_add'">
+                                    <span>test4</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div title="系统设置2" data-options="selected:true">
+                <div style="margin: 5px">
+                    <ul class="tree easyui-tree" data-options="animate:true,lines:true">
+                        <li data-options="iconCls:'icon-group'">
+                            <span>基本设置</span>
+                            <ul>
+                                <li data-options="iconCls:'icon-add'">
+                                    <span>test1</span>
+                                </li>
+                                <li data-options="iconCls:'icon-remove'">
+                                    <span>test2</span>
+                                </li>
+                                <li data-options="iconCls:'icon-save'">
+                                    <span>test3</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-options="state:'closed',iconCls:'icon-joystick'">
+                            <span>系统设置</span>
+                            <ul>
+                                <li data-options="iconCls:'icon-joystick_add'">
+                                    <span>test4</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-options="region:'center'">
+        <div id="tabs" class="easyui-tabs" data-options="tools:'#tab-tools'">
+            <div title="主页" data-options="iconCls:'icon-house'" style="padding: 10px; height: 100%;">
+                <div style="margin: 10px 0;"></div>
+                <div style="padding: 10px 0 10px 60px">
+                    <form id="ff" method="post">
+                        <table>
+                            <tr>
+                                <td>名称:</td>
+                                <td>
+                                    <input class="easyui-validatebox" type="text" name="name" data-options="required:true"></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>邮箱:</td>
+                                <td>
+                                    <input class="easyui-validatebox" type="text" name="email" data-options="required:true,validType:'email'"></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>标题:</td>
+                                <td>
+                                    <input class="easyui-validatebox" type="text" name="subject" data-options="required:true"></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>内容:</td>
+                                <td>
+                                    <textarea name="message" style="height: 60px;"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>语言:</td>
+                                <td>
+                                    <select class="easyui-combobox" name="language">
+                                        <option value="ar">Arabic</option>
+                                        <option value="bg">Bulgarian</option>
+                                        <option value="ca">Catalan</option>
+                                        <option value="zh-cht">Chinese Traditional</option>
+                                        <option value="cs">Czech</option>
+                                        <option value="da">Danish</option>
+                                        <option value="nl">Dutch</option>
+                                        <option value="en" selected="selected">English</option>
+                                        <option value="et">Estonian</option>
+                                        <option value="fi">Finnish</option>
+                                        <option value="fr">French</option>
+                                        <option value="de">German</option>
+                                        <option value="el">Greek</option>
+                                        <option value="ht">Haitian Creole</option>
+                                        <option value="he">Hebrew</option>
+                                        <option value="hi">Hindi</option>
+                                        <option value="mww">Hmong Daw</option>
+                                        <option value="hu">Hungarian</option>
+                                        <option value="id">Indonesian</option>
+                                        <option value="it">Italian</option>
+                                        <option value="ja">Japanese</option>
+                                        <option value="ko">Korean</option>
+                                        <option value="lv">Latvian</option>
+                                        <option value="lt">Lithuanian</option>
+                                        <option value="no">Norwegian</option>
+                                        <option value="fa">Persian</option>
+                                        <option value="pl">Polish</option>
+                                        <option value="pt">Portuguese</option>
+                                        <option value="ro">Romanian</option>
+                                        <option value="ru">Russian</option>
+                                        <option value="sk">Slovak</option>
+                                        <option value="sl">Slovenian</option>
+                                        <option value="es">Spanish</option>
+                                        <option value="sv">Swedish</option>
+                                        <option value="th">Thai</option>
+                                        <option value="tr">Turkish</option>
+                                        <option value="uk">Ukrainian</option>
+                                        <option value="vi">Vietnamese</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div style=" padding: 5px; margin-left:100px;">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">提交</a>
+                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">清除</a>
+                </div>
+                <table id="dg" title="My Users" class="easyui-datagrid" style="width:550px;height:250px"
+                       url="get_users.php"
+                       toolbar="#toolbar"
+                       rownumbers="true" fitcolumns="true" singleselect="true" pagination="true">
+                    <thead>
+                        <tr>
+                            <th field="firstname" width="50">First Name</th>
+                            <th field="lastname" width="50">Last Name</th>
+                            <th field="phone" width="50">Phone</th>
+                            <th field="email" width="50">Email</th>
+                        </tr>
+                    </thead>
+                </table>
+                <div id="toolbar">
+                    <a href="#" class="easyui-linkbutton" iconcls="icon-add" plain="true" onclick="newUser()">New User</a>
+                    <a href="#" class="easyui-linkbutton" iconcls="icon-edit" plain="true" onclick="editUser()">Edit User</a>
+                    <a href="#" class="easyui-linkbutton" iconcls="icon-remove" plain="true" onclick="destroyUser()">Remove User</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div id="tab-tools">
+        <a href="javascript:void(0)" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-add'" onclick="addTab()"></a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-remove'" onclick="removeTab()"></a>
+    </div>
+    <div id="mm" class="easyui-menu" style="width: 150px;">
+        <div id="refresh" data-options="iconCls:'icon-mini-refresh'">刷新</div>
+        <div class="menu-sep"></div>
+        <div id="close">关闭</div>
+        <div id="closeall">全部关闭</div>
+        <div id="closeother">除此之外全部关闭</div>
+        <div class="menu-sep"></div>
+        <div id="closeright">当前页右侧全部关闭</div>
+        <div id="closeleft">当前页左侧全部关闭</div>
+        <div class="menu-sep"></div>
+        <div id="exit">退出</div>
+    </div>
+    <div id="dlg" class="easyui-dialog" title="dialog" style="width: 250px; height: 120px; padding: 10px"
+         data-options="
+                iconCls: 'icon-save',
+                buttons: [{
+                    text:'Ok',
+                    iconCls:'icon-ok',
+                    handler:function(){
+                        alert('ok');
+                    }
+                },{
+                    text:'Cancel',
+                    handler:function(){
+                        alert('cancel');;
+                    }
+                }]
+            ">
+        确认提交吗？
+    </div>
+    <div id="dlg" class="easyui-dialog" style="width:400px;height:280px;padding:10px 20px"
+         closed="true" buttons="#dlg-buttons">
+        <div class="ftitle">User Information</div>
+        <form id="fm" method="post">
+            <div class="fitem">
+                <label>First Name:</label>
+                <input name="firstname" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>Last Name:</label>
+                <input name="lastname" class="easyui-validatebox" required="true">
+            </div>
+            <div class="fitem">
+                <label>Phone:</label>
+                <input name="phone">
+            </div>
+            <div class="fitem">
+                <label>Email:</label>
+                <input name="email" class="easyui-validatebox" validtype="email">
+            </div>
+        </form>
+    </div>
+    <div id="dlg-buttons">
+        <a href="#" class="easyui-linkbutton" iconcls="icon-ok" onclick="saveUser()">Save</a>
+        <a href="#" class="easyui-linkbutton" iconcls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">Cancel</a>
+    </div>
+</body>
+</html>
+<script>
+    function newUser() {
+        $('#dlg').dialog('open').dialog('setTitle', 'New User');
+        $('#fm').form('clear');
+        url = 'save_user.php';
+    }
+    var row = $('#dg').datagrid('getSelected');
+    if (row) {
+        $('#dlg').dialog('open').dialog('setTitle', 'Edit User');
+        $('#fm').form('load', row);
+        url = 'update_user.php?id=' + row.id;
+    }
+    function saveUser() {
+        $('#fm').form('submit', {
+            url: url,
+            onSubmit: function () {
+                return $(this).form('validate');
+            },
+            success: function (result) {
+                var result = eval('(' + result + ')');
+                if (result.errorMsg) {
+                    $.messager.show({
+                        title: 'Error',
+                        msg: result.errorMsg
+                    });
+                } else {
+                    $('#dlg').dialog('close');		// close the dialog
+                    $('#dg').datagrid('reload');	// reload the user data
+                }
+            }
+        });
+    }
+    function destroyUser() {
+        var row = $('#dg').datagrid('getSelected');
+        if (row) {
+            $.messager.confirm('Confirm', 'Are you sure you want to destroy this user?', function (r) {
+                if (r) {
+                    $.post('destroy_user.php', { id: row.id }, function (result) {
+                        if (result.success) {
+                            $('#dg').datagrid('reload');	// reload the user data
+                        } else {
+                            $.messager.show({	// show error message
+                                title: 'Error',
+                                msg: result.errorMsg
+                            });
+                        }
+                    }, 'json');
+                }
+            });
+        }
+    }
+</script>
+
+
+<script>
+    $(function () {
+        $('#dlg').dialog('close')
+    })
+    function submitForm() {
+        $('#dlg').dialog('open')
+        //$('#ff').form('submit');
+    }
+    function clearForm() {
+        $('#ff').form('clear');
+    }
+    function submitForm() {
+        $('#ff').form('submit');
+    }
+    function clearForm() {
+        $('#ff').form('clear');
+    }
+</script>
+<script>
+    var onlyOpenTitle = "主页";//不允许关闭的标签的标题
+    $(function () {
+        tabClose();
+        tabCloseEven();
+    })
+    function tabClose() {
+        /*双击关闭TAB选项卡*/
+        $(".tabs-inner").dblclick(function () {
+            var subtitle = $(this).children(".tabs-closable").text();
+            $('#tabs').tabs('close', subtitle);
+        })
+        /*为选项卡绑定右键*/
+        $(".tabs-inner").bind('contextmenu', function (e) {
+            $('#mm').menu('show', {
+                left: e.pageX,
+                top: e.pageY
+            });
+            var subtitle = $(this).children(".tabs-closable").text();
+            $('#mm').data("currtab", subtitle);
+            $('#tabs').tabs('select', subtitle);
+            return false;
+        });
+    }
+    //绑定右键菜单事件
+    function tabCloseEven() {
+        $('#mm').menu({
+            onClick: function (item) {
+                closeTab(item.id);
+            }
+        });
+        return false;
+    }
+
+    //创建/移除tab
+    var index = 0;
+    function addTab(subtitle, url, icon) {
+        index++;
+        if (!$('#tabs').tabs('exists', subtitle)) {
+            $('#tabs').tabs('add', {
+                title: 'Tab' + index,
+                content: createFrame('http://www.baidu.com/'),
+                closable: true,
+                icon: '',
+            });
+
+        } else {
+            $('#tabs').tabs('select', subtitle);
+            $('#mm-tabupdate').click();
+        }
+        tabClose();
+    }
+    function removeTab() {
+        var tab = $('#tabs').tabs('getSelected');
+        if (tab) {
+            var index = $('#tabs').tabs('getTabIndex', tab);
+            $('#tabs').tabs('close', index);
+        }
+    }
+    //创建Frame
+    function createFrame(url) {
+        var s = '<iframe scrolling="auto" frameborder="0"  src="' + url + '" style="width:100%;height:100%;"></iframe>';
+        return s;
+    }
+
+    //关闭tab
+    function closeTab(action) {
+        var alltabs = $('#tabs').tabs('tabs');
+        var currentTab = $('#tabs').tabs('getSelected');
+        var allTabtitle = [];
+        $.each(alltabs, function (i, n) {
+            allTabtitle.push($(n).panel('options').title);
+        })
+        switch (action) {
+            case "refresh":
+                var iframe = $(currentTab.panel('options').content);
+                var src = iframe.attr('src');
+                $('#tabs').tabs('update', {
+                    tab: currentTab,
+                    options: {
+                        content: createFrame(src)
+                    }
+                })
+                break;
+            case "close":
+                var currtab_title = currentTab.panel('options').title;
+                $('#tabs').tabs('close', currtab_title);
+                break;
+            case "closeall":
+                $.each(allTabtitle, function (i, n) {
+                    if (n != onlyOpenTitle) {
+                        $('#tabs').tabs('close', n);
+                    }
+                });
+                break;
+            case "closeother":
+                var currtab_title = currentTab.panel('options').title;
+                $.each(allTabtitle, function (i, n) {
+                    if (n != currtab_title && n != onlyOpenTitle) {
+                        $('#tabs').tabs('close', n);
+                    }
+                });
+                break;
+            case "closeright":
+                var tabIndex = $('#tabs').tabs('getTabIndex', currentTab);
+
+                if (tabIndex == alltabs.length - 1) {
+                    alert('亲，后边没有啦!');
+                    return false;
+                }
+                $.each(allTabtitle, function (i, n) {
+                    if (i > tabIndex) {
+                        if (n != onlyOpenTitle) {
+                            $('#tabs').tabs('close', n);
+                        }
+                    }
+                });
+                break;
+            case "closeleft":
+                var tabIndex = $('#tabs').tabs('getTabIndex', currentTab);
+                if (tabIndex == 1) {
+                    alert('亲，前边那个上头有人，咱惹不起!');
+                    return false;
+                }
+                $.each(allTabtitle, function (i, n) {
+                    if (i < tabIndex) {
+                        if (n != onlyOpenTitle) {
+                            $('#tabs').tabs('close', n);
+                        }
+                    }
+                });
+                break;
+            case "exit":
+                $('#closeMenu').menu('hide');
+                break;
+        }
+    }
+</script>
+

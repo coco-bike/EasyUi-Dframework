@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Content/Admin/script/admin_PageBar.js"></script>
+<link href="~/Content/Admin/style/admin_PageBar.css" rel="stylesheet" />
+<link href="~/Content/Admin/style/admin_UserManage.css" rel="stylesheet" />
+<script src="~/Content/Admin/script/admin_M_UserManage.js"></script>
+<div class="verifyMask" v-if="seen">
+    <form id="verifyForm">
+        <div class="verifyMask-form">
+            <div class="verifyMask-header">
+                <p><span>审&nbsp;&nbsp;&nbsp;&nbsp;核&nbsp;&nbsp;&nbsp;&nbsp;身&nbsp;&nbsp;&nbsp;&nbsp;份</span></p>
+            </div>
+            <div class="verifyMask-body">
+                <p><i class="iconfont iconfont-red">&#xe63f;</i><label>真实姓名：</label><input class="infoInput" v-model="uName" autocomplete="off" /></p>
+                <p><i class="iconfont iconfont-red">&#xe63f;</i><label>手机号码：</label><input class="infoInput" v-model="telNumber" @*v-on:keyup="telControl($event)"*@ autocomplete="off" /></p>
+                <p><i class="iconfont iconfont-red">&#xe63f;</i><label>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</label><input class="infoInput" v-model="eMail" autocomplete="off" /></p>
+                <p><label><i class="iconfont iconfont-red">&#xe63f;</i>所在单位：</label><input class="infoInput" v-model="organizeName" autocomplete="off" /></p>
+                <div>
+                    <p><i class="iconfont iconfont-red">&#xe63f;</i>用户角色：</p>
+                    <p>
+                        <label class="radioInput">普通用户：<input type="radio" name="roleGroup" v-model="roleId" value="2" /></label>
+                        <label class="radioInput">学校用户：<input type="radio" name="roleGroup" v-model="roleId" value="3" /></label>
+                        <label class="radioInput">商业用户：<input type="radio" name="roleGroup" v-model="roleId" value="4" /></label>
+                        <label class="radioInput">管理员：<input type="radio" name="roleGroup" v-model="roleId" value="1" /></label>
+                    </p>
+                </div>
+                <div>
+                    <p><i class="iconfont iconfont-red">&#xe63f;</i>账号级别：</p>
+                    <p>
+                        <label class="BronzeMedal radioInput">铜牌会员：<input type="radio" name="levelGroup" v-model="levelId" value="1" /></label>
+                        <label class="SilverMedal radioInput">银牌会员：<input type="radio" name="levelGroup" v-model="levelId" value="2" /></label>
+                        <label class="GoldMedal radioInput">金牌会员：<input type="radio" name="levelGroup" v-model="levelId" value="3" /></label>
+                    </p>
+                </div>
+            </div>
+            <div class="verifyMask-footer">
+                <input type="button" class="btn btn-success btn-lg" value="审核通过" v-on:click="verifySuccess" /><input type="button" class="btn btn-danger btn-lg" value="审核失败" v-on:click="verifyFail" /><input type="button" class="btn btn-info btn-lg" value="取消" v-on:click="cancel">
+            </div>
+        </div>
+    </form>
+</div>
+<div class="u-body">
+    <div class="u-header">
+        <p>
+            <input v-model="searchName" /><button v-on:click="search"><i class="iconfont">&#xe60b;</i></button>
+        </p>
+        @*<button><i class="iconfont">&#xe604;</i><span style="color:#fff;font-size:20px;">新增</span></button>*@
+    </div>
+    <div class="u-form">
+        <com_table v-bind:rows="formData"></com_table>
+    </div>
+    <div class="u-footer">
+        <div class="page_wrap" id="J_page_wrap"></div>
+    </div>
+</div>
+<template id="com_form">
+    <table>
+        <thead>
+            <tr>
+                <th style="width:120px">编号</th>
+                <th style="width: 150px">昵称</th>
+                <th style="width: 110px">角色</th>
+                <th style="width: 100px">等级</th>
+                <th style="width: 150px">剩余空间(m)</th>
+                <th style="width: 100px">登录次数</th>
+                <th style="width: 190px">最近登录时间</th>
+                <th style="width:121px">审核状态</th>
+                <th style="width:120px">启用/禁用</th>
+                <th style="width: 270px">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <template v-for="row in rows">
+                <tr>
+                    <td style="width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; "><span>{{row.Id}}</span></td>
+                    <td><div style="width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; " v-bind:title="row.GoodsName">{{row.NickName}}</div></td>
+                    <td><div style="width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; " v-bind:title="row.GoodsName">{{row.RoleName}}</div></td>
+                    <td style="width: 100px"><span>{{row.Name}}</span></td>
+                    <td style="width: 150px; "><span>{{(row.Volume-row.YunUsedSpace)/1048576}}</span></td>
+                    <td style="width: 100px"><span>{{row.Count}}</span></td>
+                    <td style="width: 190px"><span>{{row.LoginTime}}</span></td>
+                    <td style="width: 121px"><span v-if="row.Status == 1">审核中</span><span v-if="row.Status == 2">审核通过</span><span v-if="row.Status == 0">审核失败</span></td>
+                    <td style="width: 120px" class="upDown"><span><button v-if="row.State == 2" v-on:click="enDisableUser(row.Id,1)">启用</button><button v-if="row.State == 1" v-on:click="enDisableUser(row.Id,2)">禁用</button></span></td>
+                    <td style="width: 270px;padding:2px" class="option">@*<button class="update" v-on:click="">修改</button>*@<button class="detail" v-on:click="verify(row.Id)">审核</button><button class="delete" v-on:click="">删除</button></td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+</template>
+<script src="~/Content/Admin/script/admin_TEP_UserManage.js"></script>
+<script src="~/Content/Admin/script/admin_VM_UserManage.js"></script>

@@ -1,0 +1,282 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\Session.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\Session.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\Session.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\Dal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\Dal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\obj\Debug\Session.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\Session\obj\Debug\Session.pdb
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Session.dll.config
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Session.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Session.pdb
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Dal.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\IDal.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Model.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Dal.pdb
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\IDal.pdb
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.xml
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.xml
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Model.pdb
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.xml
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\EF快速开发框架\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\EF快速开发框架\EF快速开发框架\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+F:\EF快速开发框架\EF快速开发框架\Session\obj\Debug\Session.dll
+F:\EF快速开发框架\EF快速开发框架\Session\obj\Debug\Session.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Session.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Session.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Session.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Autofac.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Dal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Dal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Autofac.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\obj\Debug\Session.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\Session\obj\Debug\Session.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Session.dll.config
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Session.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Session.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Autofac.Configuration.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Autofac.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Dal.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Dal.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\obj\Debug\Session.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\Session\obj\Debug\Session.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Session.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Session.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Session.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Autofac.Configuration.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Autofac.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Dal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Dal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\obj\Debug\Session.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\Session\obj\Debug\Session.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\Session.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\Session.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\Session.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\Autofac.Configuration.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\Autofac.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\Dal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\Dal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\obj\Debug\Session.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\Session\obj\Debug\Session.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Session.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Session.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Session.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Autofac.Configuration.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Autofac.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Dal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\EntityFramework.Extended.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Dal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\EntityFramework.Extended.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\Newtonsoft.Json.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\obj\Debug\Session.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Session\obj\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Session.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Autofac.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\Session\obj\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall\Session\obj\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Session.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Autofac.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\obj\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\Session\obj\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Session.dll.config
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Autofac.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\EntityFramework.Extended.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\obj\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\Session\obj\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\BVM\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\Session.dll.config
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\Session.pdb
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\Autofac.Configuration.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\Autofac.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\Dal.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\Dal.pdb
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\obj\Debug\Session.dll
+C:\Users\hihi_zh\Desktop\BVM\Session\obj\Debug\Session.pdb
+G:\Git\DevelopmentFramework\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+G:\Git\DevelopmentFramework\Session\obj\Debug\Session.dll
+G:\Git\DevelopmentFramework\Session\obj\Debug\Session.pdb
+G:\Git\DevelopmentFramework\Session\bin\Debug\Session.dll.config
+G:\Git\DevelopmentFramework\Session\bin\Debug\Session.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\Session.pdb
+G:\Git\DevelopmentFramework\Session\bin\Debug\Autofac.Configuration.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\Autofac.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\Dal.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\EntityFramework.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\IDal.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\Model.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\EntityFramework.Extended.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\Dal.pdb
+G:\Git\DevelopmentFramework\Session\bin\Debug\IDal.pdb
+G:\Git\DevelopmentFramework\Session\bin\Debug\EntityFramework.xml
+G:\Git\DevelopmentFramework\Session\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\DevelopmentFramework\Session\bin\Debug\Model.pdb
+G:\Git\DevelopmentFramework\Session\bin\Debug\EntityFramework.Extended.xml
+G:\Git\DevelopmentFramework\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\DevelopmentFramework\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Session.dll.config
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Session.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Session.pdb
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Autofac.Configuration.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Autofac.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Dal.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\EntityFramework.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\IDal.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Model.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\EntityFramework.Extended.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Dal.pdb
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\IDal.pdb
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\EntityFramework.xml
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\Model.pdb
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\EntityFramework.Extended.xml
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\obj\Debug\Session.csprojResolveAssemblyReference.cache
+G:\Git\EasyUi+DevelopmentFramework\Session\obj\Debug\Session.dll
+G:\Git\EasyUi+DevelopmentFramework\Session\obj\Debug\Session.pdb

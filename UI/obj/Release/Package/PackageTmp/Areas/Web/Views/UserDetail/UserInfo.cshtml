@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/Web/style/web_UserDetail.css" rel="stylesheet" />
+<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+@*<link href="~/Content/Plugs/Cropper/cropper.css" rel="stylesheet" />
+<link href="~/Content/Plugs/Cropper/docs.css" rel="stylesheet" />*@
+<div class="container">
+    <div class="nav">
+        <ul>
+            <li class="nav_hover"><a v-on:click="nav_Userinfo">用户信息</a></li>
+            <li><a v-on:click="nav_AccountLevel">账户级别</a></li>
+            <li><a v-on:click="nav_MyCollection">我的收藏</a></li>
+            @*<li><a v-on:click="nav_MyProduct">我的作品</a></li>*@
+            <li><a v-on:click="nav_DownloadHistory">历史下载</a></li>
+        </ul>
+    </div><!--
+    --><div class="content">
+        <div class="headSection">
+            <div class="headPic" >
+                @*<div class="eg-wrapper">*@
+                @*<img class="cropper" v-bind:src="base.headPicUrl" alt="Picture">*@
+                <img v-bind:src="base.headPicUrl">
+                @*</div>*@
+            </div>
+            <div v-if="!seen"><input id="headPic" type="file" style="width:226px;color:#fff;" v-on:change="uploadHeadPic"  /> </div>
+        </div><!--
+        --><div class="detailInfo">
+            <p class="title"><button v-on:click.prevent="basicInfo">基本信息</button><button v-on:click.prevent="editInfo">编辑信息</button></p>
+               <div class="show"  v-if="seen">
+                   <div>
+                       <p><span>真实姓名</span></p>
+                       <p><span>昵称</span></p>
+                       <p><span>手机号</span></p>
+                       <p><span>邮箱</span></p>
+                       <p><span>账户级别</span></p>
+                       <p><span>所在单位</span></p>
+                       <p><span>常用社交账号登录</span></p>
+                   </div>
+                   <div>
+                       <p><span>{{uName}}</span></p>
+                       <p><span>{{ base.nickName}}</span></p>
+                       <p><span>{{telNumber}}</span></p>
+                       <p><span>{{base.eMail}}</span></p>
+                       <p><span>{{base.role}}</span></p>
+                       <p><span>{{base.organize}}</span></p>
+                       <p><span>{{base.socialSoftware}}</span></p>
+                   </div>
+               </div>
+               <div class="edit" v-else>
+                   <div>
+                       <p><span>真实姓名</span></p>
+                       <p><span>昵称</span></p>
+                       <p><span>手机号</span></p>
+                       <p><span>邮箱</span></p>
+                       <p><span>账户级别</span></p>
+                       <p><span>所在单位</span></p>
+                       <p><span>常用社交账号登录</span></p>
+                   </div>
+                   <div class="editForm">
+                       <p><input v-model="uName" v-on:keyup="checkUName($event)" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="color:#999;">(只能填写中文名)</strong></p>
+                       <p><input v-model="base.nickName" /></p>
+                       <p><input v-model="telNumber" /></p>
+                       <p><input v-model="base.eMail" /></p>
+                       <p><span>{{base.role}}</span></p>
+                       <p><input v-model="base.organize" /></p>
+                       <p><input v-model="base.socialSoftware" /></p>
+                   </div>
+                   <p class="opt"><button v-on:click="update">保存</button><button v-on:click="basicInfo">关闭</button></p>
+               </div>
+        </div>
+    </div>
+</div>
+@*<script src="~/Content/Plugs/Cropper/cropper.js"></script>
+<script src="~/Content/Plugs/Cropper/docs.js"></script>*@
+
+<script src="~/Content/Web/script/web_VM_UserDetail_UserInfo.js"></script>
+

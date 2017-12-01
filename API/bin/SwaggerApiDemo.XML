@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="T:API.Controllers.Base.JsonNetResult">
+            <summary>
+            Api返回类型s
+            </summary>
+        </member>
+        <member name="P:API.Controllers.Base.JsonNetResult.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:API.Controllers.Base.JsonNetResult.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:API.Controllers.Base.JsonNetResult.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:API.Controllers.Base.ResultData.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:API.Controllers.Base.ResultData.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:API.Controllers.Base.ResultData.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="M:API.Controllers.ValuesController.LogIn(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="uName"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.GetRegCode(System.String)">
+             <summary>
+            用户注册发送验证码
+             </summary>
+             <param name="email"></param>
+             <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.GetPwdBackCode(System.String)">
+            <summary>
+            用户找回密码发送验证码
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.ValidatePwdBackCode(System.String,System.String)">
+            <summary>
+            找回密码验证码校验
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.UpdataPwd(System.String,System.String)">
+            <summary>
+            重新输入密码
+            </summary>
+            <param name="newPwd"></param>
+            <param name="email"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.GetUserInfo(System.String)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.CreateDirectory(API.Controllers.FolderTree)">
+            <summary>
+            递归创建文件夹
+            </summary>
+            <param name="tree"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ValuesController.SendEmail(System.String,System.String,System.String)">
+            <summary>
+            发送邮件
+            </summary>
+            <param name="eMail">接收方邮箱</param>
+            <param name="mailName">发件人名称</param>
+            <param name="mailTitle">邮件名称</param>
+            <returns></returns>
+        </member>
+        <member name="T:API.Models.PagingResult`1">
+            <summary>
+            分页实体
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:API.Models.PagingResult`1.List">
+            <summary>
+            数据（数组）
+            </summary>
+        </member>
+        <member name="P:API.Models.PagingResult`1.Total">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="T:API.Models.PagingResultExtendModel`2">
+            <summary>
+            分页实体(扩展实体)
+            </summary>
+            <typeparam name="T1">分页数据结构</typeparam>
+            <typeparam name="T2">扩展数据结构</typeparam>
+        </member>
+        <member name="M:API.Models.PagingResultExtendModel`2.#ctor(System.Collections.Generic.List{`0},System.Int32,`1)">
+            <summary>
+            
+            </summary>
+            <param name="list">实体数据</param>
+            <param name="total">总记录数</param>
+            <param name="data">扩展数据</param>
+        </member>
+        <member name="M:API.Models.PagingResultExtendModel`2.#ctor(API.Models.PagingResult{`0})">
+            <summary>
+            分页数据转换成带扩展数据的分页结构数据
+            </summary>
+            <param name="padingData">分页数据</param>
+        </member>
+        <member name="M:API.Models.PagingResultExtendModel`2.#ctor(API.Models.PagingResult{`0},`1)">
+            <summary>
+            分页数据转换成带扩展数据的分页结构数据
+            </summary>
+            <param name="padingData">分页数据</param>
+            <param name="extendData">扩展数据</param>
+        </member>
+        <member name="P:API.Models.PagingResultExtendModel`2.Data">
+            <summary>
+            扩展数据
+            </summary>
+        </member>
+        <member name="T:API.Models.PagingResultExtendList`2">
+            <summary>
+            分页实体(扩展数组)
+            </summary>
+            <typeparam name="T1">分页数据结构</typeparam>
+            <typeparam name="T2">扩展数据结构</typeparam>
+        </member>
+        <member name="M:API.Models.PagingResultExtendList`2.#ctor(System.Collections.Generic.List{`0},System.Int32,System.Collections.Generic.List{`1})">
+            <summary>
+            
+            </summary>
+            <param name="list">实体数据</param>
+            <param name="total">总记录数</param>
+            <param name="data">扩展数据</param>
+        </member>
+        <member name="M:API.Models.PagingResultExtendList`2.#ctor(API.Models.PagingResult{`0})">
+            <summary>
+            
+            </summary>
+            <param name="data">分页数据</param>
+        </member>
+        <member name="M:API.Models.PagingResultExtendList`2.#ctor(API.Models.PagingResult{`0},System.Collections.Generic.List{`1})">
+            <summary>
+            分页数据转换成带扩展数据的分页结构数据
+            </summary>
+            <param name="padingData">分页数据</param>
+            <param name="extendData">扩展数据</param>
+        </member>
+        <member name="P:API.Models.PagingResultExtendList`2.Data">
+            <summary>
+            扩展数据（数组）
+            </summary>
+        </member>
+    </members>
+</doc>

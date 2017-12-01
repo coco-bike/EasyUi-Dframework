@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "DownloadHistory";
+}
+<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<link href="~/Content/Web/style/web_DownloadHistory.css" rel="stylesheet" />
+<div class="container">
+    <div class="nav">
+        <ul>
+            <li><a v-on:click="nav_Userinfo">用户信息</a></li>
+            <li ><a v-on:click="nav_AccountLevel">账户级别</a></li>
+            <li><a v-on:click="nav_MyCollection">我的收藏</a></li>
+            @*<li><a v-on:click="nav_MyProduct">我的作品</a></li>*@
+            <li class="nav_hover"><a v-on:click="nav_DownloadHistory">历史下载</a></li>
+        </ul>
+    </div><!--
+    --><div class="content" >
+        <div class="datefilter">
+            <button v-on:click="showYear"><span>年</span><i></i></button>
+            <ul class="yearshow">
+                <li v-for="year in years"><a v-on:click="selectYear(year)">{{year}}</a></li>
+            </ul>
+            <button @*style="background-color:#0F4C7B"*@ v-on:click="showMonth"><span>月</span><i></i></button>
+            <ul class="monthshow">
+                <li v-for="month in months"><a v-bind:data="month" href="javascript:void(0)" v-on:click="selectMonth(month)">{{month}}</a></li>
+            </ul>
+            <button @*style="background-color:#0078D7"*@ v-on:click="showDay"><span>日</span><i></i></button>
+            <ul class="dayshow">
+                <li v-for="day in days"><a v-bind:data="day" href="javascript:void(0)" v-on:click="selectDay(day)">{{day}}</a></li>
+            </ul>
+        </div><!--
+        --><div class="source">
+        <div class="dateSelect">
+            <p>{{base.year}}年{{base.month}}月{{base.day}}日</p>
+        </div>
+               <ul >
+                   <li v-for="item in items">
+                       <a href="javascript:void(0)" v-on:click="jumpDownLoad($event)" v-bind:data-id="item.GoodsId">
+                           <img v-bind:src="item.ThumbUrl" /><br />
+                           <p><span>{{item.Name}}</span></p>
+                       </a>
+                    </li>
+               </ul>
+    </div>
+    </div>
+</div>
+<script src="~/Content/Web/script/web_VM_UserDetail_DownloadHistory.js"></script>

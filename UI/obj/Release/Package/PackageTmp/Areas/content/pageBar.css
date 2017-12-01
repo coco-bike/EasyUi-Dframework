@@ -1,0 +1,39 @@
+﻿.page_wrap{
+	text-align:center;
+	font-size:14px;
+	padding: 0px;
+}
+.page_wrap a{ 
+	display:inline-block;
+	line-height:38px;
+	width: 38px;
+	height:39.1px;
+	border:1px solid #EBEBEB;
+	text-decoration:none;
+	color:#000;
+	margin-right: 5px;
+	padding: 0px;
+}
+.page_wrap a:hover{
+	/*background: #E91E63;*/
+        /*background:#36648B;*/
+        /*border:1px solid #808080;*/
+            background:#9AFF9A;
+}
+
+.page_wrap .cur{
+	color:#fff;
+	/*background: #E91E63;*/
+    background:#9AFF9A;
+         /*border:1px solid #808080;*/
+}
+.page_wrap span{
+	margin:0 5px;
+	color: #000;
+}
+.page_wrap input{
+	width:30px;
+	height:20px;
+	text-align:center;
+	border: 1px solid #EBEBEB;
+}

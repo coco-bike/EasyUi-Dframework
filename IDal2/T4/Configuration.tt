@@ -1,0 +1,60 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.IO"#>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Reflection" #>
+<#@ output extension=".cs" #>
+<#@ include file="T4Toolbox.tt"#>
+<#@ include file="IBaseDalTemplate.ttinclude"#>
+<#@ include file="IDalTemplate.ttinclude" #>
+<#@ include file="IDbSessionTemplate.ttinclude" #>
+<#
+
+		 string currentPath = Path.GetDirectoryName(Host.TemplateFile);//获取至T4文件夹的绝对路径
+		 string projectPath =currentPath.Substring(0, currentPath.LastIndexOf(@"\"));//获取项目的绝对路径
+
+		//**************************************根据实际修改**************************************
+		  string modelProjectName="Model";
+		  string toFilePath=projectPath+"\\"+"Base";//生成文件的路径
+	   //******************************************************************************************
+
+
+	   		//=======================路径操作=======================
+
+		 string solutionPath=projectPath.Substring(0, projectPath.LastIndexOf(@"\"));//获取解决方案的绝对路径（根目录）
+		string modelLayerPath=solutionPath+"\\"+modelProjectName+"\\bin\\Debug\\"+modelProjectName+".dll";//数据访问层内实体的dll文件路径
+		//===================================================
+
+		//=======================生成IBaseDal=======================
+		IBaseDalTemplate baseTemplate=new IBaseDalTemplate();
+		baseTemplate.Output.Encoding = Encoding.UTF8;
+		baseTemplate.RenderToFile(Path.Combine(toFilePath, baseTemplate.FileName));
+
+		//=======================根据实体生成所有IDal=======================
+		string end="Dal";//在实体名称后加  例如实体名称为:UserInfo   ,end为"Service"生成文件为UserInfoService
+		string begin="I";//在实体名称前加 
+        byte[] fileData = File.ReadAllBytes(modelLayerPath);
+        Assembly assembly = Assembly.Load(fileData);
+         Type[]types=   assembly.GetTypes();
+		 string modelNameSpace=types[0].Namespace;
+		 foreach(Type type in types)
+		 {
+			if(type.Name=="MyContext" || !type.Name.Contains("Model")) continue;//排除MyContext实体类
+			IDalTemplate template=new IDalTemplate(begin,type.Name,end,modelNameSpace);
+			template.Output.Encoding = Encoding.UTF8;
+		    template.RenderToFile(Path.Combine(toFilePath, template.FileName));
+		 }
+
+		 	//=======================根据实体生成所有IDbSession=======================
+		 List<Type>typeList = new List<Type>();
+		foreach(Type type in types)
+		 {
+		 	if(type.Name=="MyContext" || !type.Name.Contains("Model")) continue;//排除MyContext实体类
+			typeList.Add(type);
+		 }
+		 	IDbSessionTemplate dbSessionTemplate=new  IDbSessionTemplate(typeList.ToArray());
+		 	dbSessionTemplate.Output.Encoding = Encoding.UTF8;
+		    dbSessionTemplate.RenderToFile(Path.Combine(toFilePath, dbSessionTemplate.FileName));
+#>

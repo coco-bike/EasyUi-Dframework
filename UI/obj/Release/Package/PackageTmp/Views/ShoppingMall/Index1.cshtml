@@ -1,0 +1,145 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Ali-Font/iconfont.css" rel="stylesheet" />
+    <title>Index</title>
+    <link href="~/Content/Admin/shoppingMall.css" rel="stylesheet" />
+
+    <script src="~/Scripts/vue.js"></script>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/pageBar/pageBar.js"></script>
+    <link href="~/Content/pageBar/pageBar.css" rel="stylesheet" />
+    <link href="~/Content/TreeView/treeView.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(function () {
+            page.page_max = 10;
+            page.calculate_page(1);//page.calculate_page(当前页)
+            $('.menuTree div').hover(function () {
+                var jiantou = $(this).children()[0];
+                $(jiantou).children('i').css('color', 'yellow');
+            }, function () {
+                var jiantou = $(this).children()[0];
+                $(jiantou).children('i').css('color', '#fff');
+            });
+
+            $('.search input').focus(function () {
+                $('.search').css('border', '3px solid #3076BB');
+                $('.search button').css('background-image', 'url("../../Imgs/search2.jpg")');
+            })
+
+            $('.search input').blur(function () {
+                $('.search').css('border', '3px solid #666');
+                $('.search button').css('background-image', 'url("../../Imgs/search1.jpg")');
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            @*<input type="text"/><button><i class="iconfont">&#xe60b;</i></button>*@
+            <input type="text" /><!--否则有换行符
+            --><button>@*<i class="iconfont">&#xe60b;</i>*@</button>
+        </div>
+        <div class="content">
+            <div class="models">
+                <div class="page_wrap" id="J_page_wrap"></div>
+                <div class="modelInfo">
+                    <div class="line1">
+                        <div v-on:click="aaa()">
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div>
+                    </div>
+                    <div class="line2">
+                        <div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div>
+                    </div>
+                    <div class="line3">
+                        <div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div>
+                    </div>
+                    <div class="line4">
+                        <div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div>
+                    </div>
+                    <div class="line5">
+                        <div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div><!--
+                        --><div>
+                            <img src="~/Imgs/未标题-9_0012_图层-3.png" />
+                            <p><span>地球背面</span><br /><span>太阳系</span><br /><span>太阳系</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--否则有换行符
+            --><div class="nav">
+                <div id="menuTree" class="menuTree"></div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/TreeView/treeView.js"></script>
+    <script type="text/javascript">
+        new Vue({
+            el: '.modelInfo',
+            methods: {
+                aaa: function () {
+                    location.href='../Download/index';
+                }
+            }
+        });
+    </script>
+</body>
+</html>

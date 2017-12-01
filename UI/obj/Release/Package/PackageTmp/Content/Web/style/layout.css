@@ -1,0 +1,117 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: '微软雅黑', Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/*==================设置浏览器滚动条==================*/
+/* 设置滚动条的样式 */
+.container ::-webkit-scrollbar {
+    width: 28px;
+}
+/*上面的按钮*/
+.container ::-webkit-scrollbar-button:vertical:single-button:start {
+    width: 28px;
+    height: 20px;
+    background-image: url("../../Imgs/top.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-color: #191919;
+    cursor: pointer;
+}
+/*下面的按钮*/
+.container ::-webkit-scrollbar-button:vertical:single-button:end {
+    width: 28px;
+    height: 20px;
+    background-image: url("../../Imgs/bottom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-color: #191919;
+    cursor: pointer;
+}
+/*滑轨*/
+.container ::-webkit-scrollbar-track {
+    background: #464646;
+}
+/* 滚动条滑块 */
+.container ::-webkit-scrollbar-thumb {
+    background: #191919;
+}
+/*==================设置浏览器滚动条    end==================*/
+body {
+    width: 100%;
+    text-align: center;
+}
+
+
+.container {
+    margin: 0 auto;
+    background-color: #1F1F1F;
+    width: 1213px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.search {
+    margin: 0px auto;
+    width: 1213px;
+    height: 61px;
+    border: 3px solid #666;
+    text-align: left;
+}
+
+    .search input {
+        padding-left: 10px;
+        width: 1102px;
+        border: none;
+        font-size: 25px;
+        line-height: 55px;
+        background-color: transparent; /*背景透明*/
+        color: #fff;
+    }
+        .search input:focus {
+            border:1px solid #3076BB;
+        }
+
+
+    .search button {
+        height: 55px;
+        vertical-align: top;
+        border: none;
+        width: 105px;
+        background-image: url("../../Imgs/search1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        /*background-size: 50px 50px;*/
+    }
+
+    .content {
+    width: 1213px;
+    margin: 0 auto;
+    margin-top: 44px;
+    text-align: left;
+}
+
+    .content .content-info {
+        width: 883px;
+        background-color: #333;
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid #666;
+        height: 792px;
+        overflow-y: scroll;
+    }
+
+    .content .nav {
+        width: 294px;
+        height: 792px;
+        background-color: #333;
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid #666;
+        margin-left: 34px;
+        padding-top:16px;
+    }

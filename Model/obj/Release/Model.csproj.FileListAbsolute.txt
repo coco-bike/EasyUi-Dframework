@@ -1,0 +1,14 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\Model.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\obj\Release\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\obj\Release\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\Model\bin\Release\Newtonsoft.Json.xml

@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Web/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/Content/Web/style/web_ShoppingMall.css" rel="stylesheet" />
+
+<script type="text/javascript">
+    $(function () {
+        M_MailData.uName = GetQueryString('uName');
+    });
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+</script>
+<div class="page_wrap" id="J_page_wrap"></div>
+<div class="modelInfo">
+    <ul class="rows">
+        <li v-for="item in items" v-on:click="jumpDownLoad(item.Id)" track-by="item.id">
+            <img v-bind:src="item.ThumbUrl"/>
+            <div>
+                <p><span v-bind:title="item.GoodsName">{{item.GoodsName}}</span></p>
+                <ul>
+                    <li v-for="tag in item.TagModels.slice(0,3)"><span class="tag" v-bind:title="tag.TagName">{{tag.TagName}}</span></li>
+                </ul>
+                <p><span v-bind:title="item.Company">{{item.Company}}</span></p>
+            </div>
+        </li>
+    </ul>
+</div>
+<script src="~/Content/Web/script/web_VM_ShoppingMall.js"></script>
+

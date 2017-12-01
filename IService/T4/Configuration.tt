@@ -1,0 +1,57 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.IO"#>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Reflection" #>
+<#@ output extension=".cs" #>
+<#@ include file="T4Toolbox.tt"#>
+<#@ include file="IBaseServiceTemplate.ttinclude"#>
+<#@ include file="IServiceTemplate.ttinclude"#>
+<#
+
+
+		 string currentPath = Path.GetDirectoryName(Host.TemplateFile);//获取至T4文件夹的绝对路径
+		 string projectPath =currentPath.Substring(0, currentPath.LastIndexOf(@"\"));//获取项目的绝对路径
+
+		//**************************************根据实际修改**************************************
+		  string modelProjectName="Model";
+		  string idalProjectName="IDal";
+		  string toFilePath=projectPath+"\\"+"Base";//生成文件的路径
+	   //******************************************************************************************
+
+
+	     //=======================路径操作=======================
+		 string solutionPath=projectPath.Substring(0, projectPath.LastIndexOf(@"\"));//获取解决方案的绝对路径（根目录）
+		string modelLayerPath=solutionPath+"\\"+modelProjectName+"\\bin\\Debug\\"+modelProjectName+".dll";//数据访问层内实体的dll文件路径
+		string idalLayerPath=solutionPath+"\\"+idalProjectName+"\\bin\\Debug\\"+idalProjectName+".dll";//IDal的dll文件路径
+		//******************************************************************************************
+
+
+		string end="Service";//在实体名称后加  例如实体名称为:UserInfo   ,end为"Service"生成文件为UserInfoService
+		string begin="I";//在实体名称前加 
+        byte[] fileDataModel = File.ReadAllBytes(modelLayerPath);
+		byte[] fileDataIDal = File.ReadAllBytes(idalLayerPath);
+        Assembly assemblyModel = Assembly.Load(fileDataModel);
+		Assembly assemblyIDal = Assembly.Load(fileDataIDal);
+        Type[]typesModel=   assemblyModel.GetTypes();
+		Type[] typesIDal=assemblyIDal.GetTypes();
+		 string idalNameSpace=typesIDal[0].Namespace;
+		 string modelNameSpace=typesModel[0].Namespace;
+
+
+		//=======================生成IBaseService=======================
+		IBaseServiceTemplate baseTemplate=new IBaseServiceTemplate(idalNameSpace);
+		baseTemplate.Output.Encoding = Encoding.UTF8;
+		baseTemplate.RenderToFile(Path.Combine(toFilePath, baseTemplate.FileName));
+
+		//=======================根据实体生成所有IService=======================
+		 foreach(Type type in typesModel)
+		 {
+			if(type.Name=="MyContext" || !type.Name.Contains("Model")) continue;//排除MyContext实体类
+			IServiceTemplate template=new IServiceTemplate(begin,type.Name,end,modelNameSpace);
+			template.Output.Encoding = Encoding.UTF8;
+		    template.RenderToFile(Path.Combine(toFilePath, template.FileName));
+		 }
+#>

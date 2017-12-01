@@ -1,0 +1,190 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\IDal.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\obj\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\EF快速开发框架\IDal\obj\Debug\IDal.pdb
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\IDal.dll.config
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\IDal.dll
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\IDal.pdb
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.dll
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.dll
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\Model.dll
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\Model.pdb
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.xml
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.xml
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\EF快速开发框架\EF快速开发框架\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+F:\EF快速开发框架\EF快速开发框架\IDal\obj\Debug\IDal.dll
+F:\EF快速开发框架\EF快速开发框架\IDal\obj\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\IDal.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\obj\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架\EF快速开发框架\IDal\obj\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\IDal.dll.config
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\obj\Debug\IDal.dll
+C:\Users\Administrator\Desktop\新建文件夹\EF快速开发框架\IDal\obj\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\IDal.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\obj\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架20170516\EF快速开发框架\IDal\obj\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\IDal.dll.config
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\IDal.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\obj\Debug\IDal.dll
+C:\Users\Administrator\Desktop\EF快速开发框架Autofac(1)\EF快速开发框架Autofac\IDal\obj\Debug\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\IDal.dll.config
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\IDal.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\EntityFramework.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\EntityFramework.SqlServer.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\Newtonsoft.Json.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\EntityFramework.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\EntityFramework.SqlServer.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\Newtonsoft.Json.xml
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\obj\Debug\IDal.dll
+d:\用户目录\我的文档\visual studio 2013\Projects\ModelMall\IDal\obj\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\IDal.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\obj\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall\IDal\obj\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\IDal.dll.config
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\obj\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\ModelMall - 副本\IDal\obj\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\obj\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\obj\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\IDal.dll.config
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\EF快速开发框架\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\IDal.dll.config
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\IDal.pdb
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\EntityFramework.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\Model.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\Model.pdb
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\EntityFramework.xml
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+C:\Users\hihi_zh\Desktop\BVM\IDal\obj\Debug\IDal.dll
+C:\Users\hihi_zh\Desktop\BVM\IDal\obj\Debug\IDal.pdb
+G:\Git\DevelopmentFramework\IDal\bin\Debug\IDal.dll.config
+G:\Git\DevelopmentFramework\IDal\bin\Debug\IDal.dll
+G:\Git\DevelopmentFramework\IDal\bin\Debug\IDal.pdb
+G:\Git\DevelopmentFramework\IDal\bin\Debug\EntityFramework.dll
+G:\Git\DevelopmentFramework\IDal\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\DevelopmentFramework\IDal\bin\Debug\Model.dll
+G:\Git\DevelopmentFramework\IDal\bin\Debug\Model.pdb
+G:\Git\DevelopmentFramework\IDal\bin\Debug\EntityFramework.xml
+G:\Git\DevelopmentFramework\IDal\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\DevelopmentFramework\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\DevelopmentFramework\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\DevelopmentFramework\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+G:\Git\DevelopmentFramework\IDal\obj\Debug\IDal.dll
+G:\Git\DevelopmentFramework\IDal\obj\Debug\IDal.pdb
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\IDal.dll.config
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\IDal.dll
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\IDal.pdb
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\EntityFramework.dll
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\Model.dll
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\Model.pdb
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\EntityFramework.xml
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\IDal\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\Git\EasyUi+DevelopmentFramework\IDal\obj\Debug\IDal.csprojResolveAssemblyReference.cache
+G:\Git\EasyUi+DevelopmentFramework\IDal\obj\Debug\IDal.dll
+G:\Git\EasyUi+DevelopmentFramework\IDal\obj\Debug\IDal.pdb

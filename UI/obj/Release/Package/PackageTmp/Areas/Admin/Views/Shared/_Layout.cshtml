@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/Plugs/Ali-Font/iconfont.css" rel="stylesheet" />
+    <link href="~/Content/Admin/style/admin_Layout.css" rel="stylesheet" />
+    <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.3.4/vue.js"></script>
+    <link href="~/Content/Admin/style/admin_Upload.css" rel="stylesheet" />
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav_body">
+                <ul id="menu">
+                    <li>Menu</li>
+                    <li>
+                        <div class="headPicBg">
+                            @*<img src="../../../../Imgs/head.jpg" alt="..." class="headPic">*@
+                        </div>
+                        <div class="headPicIntro"><p><span>Welcome,</span></p><p><span>John Doe</span></p></div>
+                    </li>
+                    <li class="nav_li" index="1">
+                        <a href="../../admin/modelmanage/index">
+                            <span><i class="iconfont">&#xe628;</i></span>
+                            <span>模型管理</span><i class="iconfont nav-fa">&#xe55b;</i>
+                        </a>
+                    </li>
+                    <li class="nav_li" index="2" >
+                        <a href="../../admin/fileManage/index">
+                            <span><i class="iconfont">&#xe69e;</i></span>
+                            <span>文件管理</span><i class="iconfont nav-fa">&#xe55b;</i>
+                        </a>
+                    </li>
+                    <li class="nav_li" index="3" >
+                        <a href="../../admin/usermanage/index">
+                            <span><i class="iconfont">&#xe619;</i></span>
+                            <span>用户管理</span><i class="iconfont nav-fa">&#xe55b;</i>
+                        </a>
+                    </li>
+                    <li class="nav_li" index="4">
+                        <a>
+                            <span><i class="iconfont">&#xe687;</i></span>
+                            <span>角色管理</span><i class="iconfont nav-fa">&#xe55b;</i>
+                        </a>
+                    </li>
+                    <li class="nav_li" index="5" @*v-on:click="typeClick($event)"*@>
+                        <a>
+                            <span><i class="iconfont">&#xe75b;</i></span>
+                            <span>权限管理</span><i class="iconfont nav-fa">&#xe55b;</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_footer">
+                <ul>
+                    <li><i class="iconfont">&#xe612;</i></li>
+                    <li><i class="iconfont">&#xe625;</i></li>
+                    <li><i class="iconfont">&#xe601;</i></li>
+                    <li><i class="iconfont">&#xe603;</i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <ul class="head_ul">
+                    <li class="head_ul_li_email">
+                        <a>
+                            <i class="iconfont icon-email">&#xe90a;</i>
+                            <span class="icon-email-num">6</span>
+                        </a>
+                    </li>
+                    <li class="head_ul_li_head">
+                        <a>
+                            <img src="../../../../Imgs/head.jpg" alt="..." class="smallHeadPic">
+                            <span>&nbsp; John Deo</span>
+                            <i class="iconfont">&#xe501;</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="body">
+                @RenderBody()
+            </div>
+            <div class="footer">
+                <p><span>copyright © 2017-2020 LinJieFengXing</span></p>
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

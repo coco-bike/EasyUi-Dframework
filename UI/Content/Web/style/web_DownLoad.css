@@ -1,0 +1,227 @@
+﻿.change-btn {
+    position: absolute;
+    top: 350px;
+    z-index: 999;
+    left: 320px;
+}
+
+    .change-btn li {
+        display: inline-block;
+        vertical-align: top;
+        width: 18px;
+        height: 18px;
+        margin-left: 40px;
+    }
+
+        .change-btn li a {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            border: 1px solid #fff;
+        }
+
+.change-btn-select {
+    background-color: #FFB900;
+}
+
+.change-btn-noselect {
+    background-color: transparent;
+}
+
+.downLoad {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: none;
+}
+
+.downLoad > p {
+    height: 62px;
+    width: 853px;
+    background-color: #323232;
+    text-align: left;
+}
+
+.downLoad > .dt-header p > span {
+    line-height: 62px;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+    .goBack {
+        display: inline-block;
+        vertical-align: top;
+        width: 61px;
+        height: 55px;
+        border: none;
+        background: url(/Imgs/goBack.png) no-repeat center;
+        position: absolute;
+        top: 0;
+        left: 1098px;
+    }
+.downLoad > .dt-header > .pic-change .pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    list-style: none;
+    padding: 0px;
+}
+
+
+    .downLoad > .dt-header > .pic-change .pic img {
+        width: 100%;
+        height: 422px;
+    }
+
+.dt-header > .pic-change {
+    position: relative;
+    width: 836px;
+    height: 422px;
+}
+
+.downLoad > .dt-content {
+    height: 306px;
+    width: 836px;
+    text-align: left;
+}
+
+    .downLoad > .dt-content .content-left {
+        width: 534px;
+        border-right: 2px solid #666;
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;
+        background-color: #323232;
+    }
+
+    .downLoad > .dt-content .content-left {
+        padding: 0 26px;
+    }
+
+        .downLoad > .dt-content .content-left p:first-child {
+            padding: 27px 0 20px 0;
+        }
+
+            .downLoad > .dt-content .content-left p:first-child button {
+                text-align: left;
+                height: 35px;
+            }
+
+                .downLoad > .dt-content .content-left p:first-child button:first-child {
+                    width: 150px;
+                    background: url("../../../../../Imgs/6.jpg") no-repeat;
+                }
+
+            .downLoad > .dt-content .content-left p:first-child .whetherCollect {
+                width: 110px;
+                margin-left: 12px;
+            }
+
+            .downLoad > .dt-content .content-left p:first-child .no-collectBtn {
+                background: url("../../../../../Imgs/noCollect.jpg") no-repeat;
+            }
+
+            .downLoad > .dt-content .content-left p:first-child .collectBtn {
+                background: url("../../../../../Imgs/collect.png") no-repeat;
+            }
+
+
+        .downLoad > .dt-content .content-left p:not(:first-child) span {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .downLoad > .dt-content .content-left p:last-child {
+            color: #fff;
+            text-indent: 2em;
+            line-height: 25px;
+            font-size: 15px;
+        }
+
+    .downLoad > .dt-content .content-right {
+        width: 302px;
+        border: none;
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;
+        background-color: #2A2A2A;
+        padding: 31px 0 0 22px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+
+        .downLoad > .dt-content .content-right ul li {
+            display: inline-block;
+            vertical-align: top;
+            list-style: none;
+            width: 55px;
+            height: 30px;
+            text-align: center;
+            background-color: #264257;
+            color: #63B9EC;
+            margin-bottom: 5px;
+        }
+
+            .downLoad > .dt-content .content-right ul li a {
+                display: inline-block;
+                line-height: 30px;
+                width: 100%;
+            }
+
+            .downLoad > .dt-content .content-right ul li:not(:first-child) {
+                margin-left: 5px;
+            }
+
+.content-right p {
+    font-size: 15px;
+}
+
+.downLoad > .dt-content .content-right > div {
+    margin-top: 10px;
+}
+
+.downLoad > .dt-content .content-right div p {
+    float: left;
+}
+
+.downLoad > .dt-content .content-right ul {
+    margin-left: 40px;
+    width: 180px;
+    text-align: left;
+}
+
+
+    .downLoad > .dt-content .content-right ul li {
+        display: inline-block;
+        vertical-align: top;
+        list-style: none;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+        background-color: #264257;
+        color: #63B9EC;
+        margin-bottom: 5px;
+    }
+
+        .downLoad > .dt-content .content-right ul li a {
+            display: inline-block;
+            vertical-align: top;
+            line-height: 20px;
+            width: 100%;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+.content .content-right ul li:not(:first-child) {
+    margin-left: 5px;
+}
