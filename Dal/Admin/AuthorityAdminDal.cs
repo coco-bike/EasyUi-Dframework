@@ -7,7 +7,7 @@ using IDal;
 
 namespace Dal
 {
-    public class AuthorityAdminDal:AuthorityDal,IAuthorityAdminDal
+    public class AuthorityAdminDal : AuthorityDal, IAuthorityAdminDal
     {
     }
 }

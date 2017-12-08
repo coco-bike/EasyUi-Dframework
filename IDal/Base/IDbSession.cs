@@ -13,7 +13,7 @@ namespace IDal
         IUserAdminDal UserDal { get; set; }
         IAuthorityAdminDal AuthorityDal { get; set; }
         IRoleAdminDal RoleDal { get; set; }
-        IProductDal ProductDal { get; set; }
+        IProductAdminDal ProductDal { get; set; }
         int ExcuteSql(string sql, object[] parameters);
         bool SaveChanges();
     }

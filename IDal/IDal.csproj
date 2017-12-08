@@ -47,11 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\IAuthorityAdminDal.cs" />
+    <Compile Include="Admin\IProductAdminDal.cs" />
     <Compile Include="Admin\IRoleAdminDal.cs" />
     <Compile Include="Admin\IUserAdminDal.cs" />
     <Compile Include="Base\IAuthorityDal.cs" />
     <Compile Include="Base\IBaseDal.cs" />
     <Compile Include="Base\IDbSession.cs" />
+    <Compile Include="Base\IProductDal.cs" />
     <Compile Include="Base\IRoleDal.cs" />
     <Compile Include="Base\IUserDal.cs" />
     <Compile Include="T4\Configuration.cs">

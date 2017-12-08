@@ -1,0 +1,139 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Plugs/EasyUi/jquery.easyui.min.js"></script>
+    <script src="~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js"></script>
+    <link href="~/Plugs/EasyUi/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Plugs/EasyUi/Css/icon.css" rel="stylesheet" />
+    <script src="~/Scripts/utils.js"></script>
+     <style>
+         .dd-demo{
+             display:inline-block;
+             background-color:red;
+             width:50px;
+             height:50px;
+         }
+         ul li{
+             display:inline-block;
+             list-style:none;
+         }
+         .item{
+             background-color:green;
+         }
+         .item img{
+             height:80px;
+             width:40px;
+         }
+     </style>
+    <title>DataGrid</title>
+</head>
+<body class="easyui-layout">
+    <div data-options="region:'north'" style="height:50px"></div>
+    <div data-options="region:'south',split:true" style="height:50px;"></div>
+    <div data-options="region:'east',split:true" title="East" style="width:100px;"></div>
+    <div data-options="region:'west',split:true" title="West" style="width:100px;"></div>
+    <div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
+        <div id="dd1" class="dd-demo"></div>
+        <div id="dd2" class="dd-demo"></div>
+        <div id="dd3" class="dd-demo"></div>
+        <ul class="products">
+            <li>
+                <a href="#" class="item">
+                    <img src="images/shirt1.gif" />
+                    <div>
+                        <p>Balloon</p>
+                        <p>Price:$25</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="item">
+                    <img src="images/shirt2.gif" />
+                    <div>
+                        <p>Feeling</p>
+                        <p>Price:$25</p>
+                    </div>
+                </a>
+            </li>
+            <!-- other products -->
+        </ul>
+        <div class="cart">
+            <h1>Shopping Cart</h1>
+            <table id="cartcontent" title="My Users" class="easyui-datagrid" style="width: 300px; height: auto;" rownumbers="true" fitcolumns="true" singleselect="true"             >
+                <thead>
+                    <tr>
+                        <th field="name" width=140>Name</th>
+                        <th field="quantity" width=60 align="right">Quantity</th>
+                        <th field="price" width=60 align="right">Price</th>
+                    </tr>
+                </thead>
+            </table>
+            <p class="total">Total: $0</p>
+            <h2>Drop here to add to cart</h2>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $('#dd1').draggable();
+    $('#dd2').draggable({
+        proxy: 'clone'
+    });
+    $('#dd3').draggable({
+        proxy: function (source) {
+            var p = $('<div class="proxy">proxy</div>');
+            p.appendTo('body');
+            return p;
+        }
+    });
+    $('.item').draggable({
+        revert: true,
+        proxy: 'clone',
+        onStartDrag: function () {
+            $(this).draggable('options').cursor = 'not-allowed';
+            $(this).draggable('proxy').css('z-index', 10);
+        },
+        onStopDrag: function () {
+            $(this).draggable('options').cursor = 'move';
+        }
+    });
+
+    $('.cart').droppable({
+        onDragEnter: function (e, source) {
+            $(source).draggable('options').cursor = 'auto';
+        },
+        onDragLeave: function (e, source) {
+            $(source).draggable('options').cursor = 'not-allowed';
+        },
+        onDrop: function (e, source) {
+            var name = $(source).find('p:eq(0)').html();
+            var price = $(source).find('p:eq(1)').html();
+            addProduct(name, parseFloat(price.split('$')[1]));
+        }
+    });
+
+    var data = { "total": 0, "rows": [] };
+    var totalCost = 0;
+    function addProduct(name, price) {
+        function add() {
+            for (var i = 0; i < data.total; i++) {              
+                var row = data.rows[i];
+            }
+            data.total += 1;
+            data.rows.push({
+                name: name,
+                quantity: 1,
+                price: price
+            });
+        }
+        add();
+        totalCost += price;
+        $('#cartcontent').datagrid('loadData', data);
+        $('div.cart .total').html('Total: $' + totalCost);
+    };
+</script>

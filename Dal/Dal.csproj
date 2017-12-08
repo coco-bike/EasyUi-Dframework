@@ -53,11 +53,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\AuthorityAdminDal.cs" />
+    <Compile Include="Admin\ProductAdminDal.cs" />
     <Compile Include="Admin\RoleAdminDal.cs" />
     <Compile Include="Admin\UserAdminDal.cs" />
     <Compile Include="Base\AuthorityDal.cs" />
     <Compile Include="Base\BaseDal.cs" />
     <Compile Include="Base\DbContextOnly.cs" />
+    <Compile Include="Base\ProductDal.cs" />
     <Compile Include="Base\RoleDal.cs" />
     <Compile Include="Base\UserDal.cs" />
     <Compile Include="T4\Configuration.cs">

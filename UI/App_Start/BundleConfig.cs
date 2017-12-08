@@ -13,7 +13,12 @@ namespace UI
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));
-
+            bundles.Add(new ScriptBundle("~/Plugs/EasyUi/js").Include(
+                "~/Scripts/jquery-1.8.2.min.js",
+                "~/Plugs/EasyUi/jquery.easyui.min.js",
+                "~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js",
+                "~/Scripts/utils.js"
+                ));
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.unobtrusive*",
                         "~/Scripts/jquery.validate*"));
@@ -24,6 +29,11 @@ namespace UI
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Plugs/EasyUi/css").Include(
+            "~/Plugs/EasyUi/themes/default/easyui.css",
+            "~/Plugs/EasyUi/Css/icon.css"
+            ));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",

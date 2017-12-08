@@ -9,6 +9,5 @@ namespace Service
 {
     public class RoleAdminService:RoleService,IRoleAdminService
     {
-
     }
 }

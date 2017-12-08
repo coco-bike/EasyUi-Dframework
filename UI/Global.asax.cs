@@ -16,6 +16,8 @@ using UI.Services;
 using Model;
 using System.Data.Entity;
 using Common;
+using IService;
+using Service;
 
 namespace UI
 {
@@ -30,30 +32,29 @@ namespace UI
             DbContext db = new MyContext();
             if (db.Database.CreateIfNotExists())
             {
-                using (var db1 = new MyContext())
-                {
-                    List<ProductModel> productlist = new List<ProductModel>(){
+                IProductAdminService productservice = new ProductAdminService();
+                List<ProductModel> productlist = new List<ProductModel>(){
                 new ProductModel(){Id=1,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=2,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=3,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=4,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=5,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=6,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=7,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=8,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=9,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=10,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=11,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=12,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=13,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=14,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=15,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=16,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=17,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=18,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-                new ProductModel(){Id=19,itemid="1",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
-            };
-                }
+                new ProductModel(){Id=2,itemid="2",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=3,itemid="3",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=4,itemid="4",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=5,itemid="5",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=6,itemid="6",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=7,itemid="7",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=8,itemid="8",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=9,itemid="9",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=10,itemid="10",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=11,itemid="11",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=12,itemid="12",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=13,itemid="13",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=14,itemid="14",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=15,itemid="15",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=16,itemid="16",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=17,itemid="17",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=18,itemid="18",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},
+                new ProductModel(){Id=19,itemid="19",productid="1",listprice="1",status="1",attr1="1",unitcost="1"},              
+                    };
+                productservice.AddRange(productlist);                
             }
             AreaRegistration.RegisterAllAreas();
 

@@ -42,10 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\AuthorityAdminService.cs" />
+    <Compile Include="Admin\ProductAdminService.cs" />
     <Compile Include="Admin\RoleAdminService.cs" />
     <Compile Include="Admin\UserAdminService.cs" />
     <Compile Include="Base\AuthorityService.cs" />
     <Compile Include="Base\BaseService.cs" />
+    <Compile Include="Base\ProductService.cs" />
     <Compile Include="Base\RoleService.cs" />
     <Compile Include="Base\UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

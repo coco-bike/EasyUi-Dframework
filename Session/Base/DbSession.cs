@@ -75,7 +75,8 @@ namespace Session
             }
             set { _RoleDal = value; }
         }
-        public IProductAdminDal _ProductDal
+        public IProductAdminDal _ProductDal;
+        public IProductAdminDal ProductDal
         {
             get
             {

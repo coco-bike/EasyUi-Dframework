@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\AuthorityModel.cs" />
+    <Compile Include="Entities\ProductModel.cs" />
     <Compile Include="Entities\RoleModel.cs" />
     <Compile Include="Entities\UserModel.cs" />
     <Compile Include="Mapping\AuthorityModelMap.cs" />
