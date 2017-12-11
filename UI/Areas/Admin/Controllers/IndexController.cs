@@ -27,10 +27,6 @@ namespace UI.Areas.Admin.Controllers
         {
             return View();
         }
-        public ActionResult AddRole()
-        {
-            return View();
-        }
         #endregion
 
         #region 初始化
@@ -52,9 +48,9 @@ namespace UI.Areas.Admin.Controllers
            int totalCount;
            var pageIndex = Convert.ToInt32(page);
            var pageSize = Convert.ToInt32(rows);
-           if (itemid == null && productid == null)
+           if (itemid == null && productid == null||(itemid==""&&productid==""))
            {
-               var productlist = this._productService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.status == "1", s => s.Id).Select(t => new { t.Id, t.itemid, t.listprice, t.productid, t.status, t.unitcost, t.attr1 }).ToList();
+               var productlist = this._productService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.State == 1, s => s.Id).Select(t => new { t.Id, t.itemid, t.listprice, t.productid, status = t.State, t.unitcost, t.attr1 }).ToList();
                return Json(new { total = totalCount, rows = productlist });
            }
            else
@@ -105,6 +101,7 @@ namespace UI.Areas.Admin.Controllers
             this._productService.Add(product1);
             return Json(ResultStatus.Success);
         }
+
         /// <summary>
         /// 删除
         /// </summary>
@@ -118,7 +115,7 @@ namespace UI.Areas.Admin.Controllers
             {
                 return Json(ResultStatus.Fail);
             }
-            int result = this._productService.DeleteFake(t => t.itemid == item, t => new ProductModel() { status = "0" });
+            int result = this._productService.DeleteFake(t => t.itemid == item, t => new ProductModel() { State = 0 });
             if (result > 0)
             {
                 return Json(ResultStatus.Success);

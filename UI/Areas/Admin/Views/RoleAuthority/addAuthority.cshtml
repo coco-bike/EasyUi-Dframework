@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "addAuthority";
+    Layout = "~/Areas/Admin/Views/Shared/MyLayout.cshtml";
+}
+@section MySection{
+    <style>
+        #tb {
+            font-size: 12px;
+            text-align: left;
+        }
+        #dg3{
+            margin-top:30px;
+        }
+    </style>
+}
+<table id="dg3" title="My Users" class="easyui-datagrid" style="width:100%;height:600px"
+       url="../RoleAuthority/GetAuthorityListData"
+       toolbar="#toolbar"
+       rownumbers="true" fitcolumns="true" singleselect="true" pagination="true">
+    <thead>
+        <div id="tb" style="padding:3px">
+            <span>Name:</span>
+            <input id="name" style="line-height:26px;border:1px solid #ccc">
+            <a href="#" class="easyui-linkbutton" plain="true" onclick="doSearch()">Search</a>
+            <a href="#" class="easyui-linkbutton" plain="true" onclick="reset()">reset</a>
+        </div>
+        <tr>
+            <th field="Name" sortable="true" width="50">Name</th>
+            <th field="Type" sortable="true" width="50">Type</th>
+            <th field="Description" sortable="true" width="50">Description</th>
+            <th field="BuildTime" sortable="true" width="50">BuildTime</th>
+            <th field="UpdateTime" sortable="true" width="50">UpdateTime</th>
+        </tr>
+    </thead>
+</table>
+<div id="toolbar">
+    <a href="#" class="easyui-linkbutton" iconcls="icon-add" plain="true" onclick="newUser()">New User</a>
+    <a href="#" class="easyui-linkbutton" iconcls="icon-edit" plain="true" onclick="editUser()">Edit User</a>
+    <a href="#" class="easyui-linkbutton" iconcls="icon-remove" plain="true" onclick="destroyUser()">Remove User</a>
+</div>
+<div id="dlg" class="easyui-dialog" style="width:400px;height:280px;padding:10px 20px"
+     closed="true" buttons="#dlg-buttons">
+    <div class="ftitle">User Information</div>
+    <form id="fm" method="post">
+        <div class="fitem">
+            <label>Name:</label>
+            <input name="Name" class="easyui-validatebox" required="true">
+        </div>
+        <div class="fitem">
+            <label>Type:</label>
+            <input name="Type" class="easyui-validatebox" required="true">
+        </div>
+        <div class="fitem">
+            <label>Description:</label>
+            <input name="Description">
+        </div>
+    </form>
+</div>
+<div id="dlg-buttons">
+    <a href="#" class="easyui-linkbutton" iconcls="icon-ok" onclick="saveUser()">Save</a>
+    <a href="#" class="easyui-linkbutton" iconcls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">Cancel</a>
+</div>
+<script>
+    function doSearch() {
+        $('#dg3').datagrid('load', {
+            name: $('#name').val(),
+        });
+    };
+    function reset() {
+        $('#name').val("");
+        $('#dg3').datagrid('load', {
+            rolename: $('#rolename').val(),
+        });
+    }
+</script>
+<script>
+    function newUser() {
+        $('#dlg').dialog('open').dialog('setTitle', 'New User');
+        $('#fm').form('clear');
+        url = '../RoleAuthority/SaveAuthorityData';
+    }
+    function editUser() {
+        var row = $('#dg3').datagrid('getSelected');
+        if (row) {
+            $('#dlg').dialog('open').dialog('setTitle', 'Edit User');
+            $('#fm').form('load', row);
+            url = "../RoleAuthority/UpdateAuthorityData";
+        }
+    }
+    function saveUser() {
+        $('#fm').form('submit', {
+            url: url,
+            onSubmit: function () {
+                return $(this).form('validate');
+            },
+            success: function (result) {
+                var result = eval('(' + result + ')');
+                if (result.errorMsg) {
+                    $.messager.show({
+                        title: 'Error',
+                        msg: result.errorMsg
+                    });
+                } else {
+                    $('#dlg').dialog('close');		// close the dialog
+                    $('#dg3').datagrid('reload');	// reload the user data
+                }
+            }
+        });
+    }
+    function destroyUser() {
+        var row = $('#dg3').datagrid('getSelected');
+        if (row) {
+            $.messager.confirm('Confirm', 'Are you sure you want to destroy this user?', function (r) {
+                if (r) {
+                    $.post('../RoleAuthority/DestroyAuthority', { id: row.Id }, function (result) {
+                        if (result == 1) {
+                            $('#dg3').datagrid('reload');	// reload the user data
+                        } else {
+                            $.messager.show({	// show error message
+                                title: 'Error',
+                                msg: result.errorMsg
+                            });
+                        }
+                    }, 'json');
+                }
+            });
+        }
+    }
+</script>

@@ -15,11 +15,17 @@ function addTab1(url,icon,titletext){
     }else{
         $('#tabs').tabs('select',titletext);
     }
-    tabClose();
+    tabClose(); 
 }
 
 $(function(){
-$('#_easyui_tree_1').click(function(){
-    addTab1('../Admin/index/AddRole','','角色查询');
+$('#_easyui_tree_2').click(function(){
+    addTab1('../Admin/RoleAuthority/AddRole','','角色');
 });
+$('#_easyui_tree_3').click(function(){
+    addTab1('../Admin/RoleAuthority/addAuthority','','权限');
+});
+$('#_easyui_tree_4').click(function(){
+    addTab1('../Admin/RoleAuthority/addRoleAuthority','','角色权限');
+})
 });

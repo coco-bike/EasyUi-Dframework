@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "主页";
 }
-<table id="dg" title="My Users" class="easyui-datagrid" style="width:100%;height:600px"
+<table id="dg1" title="My Users" class="easyui-datagrid" style="width:100%;height:600px"
        url="../Admin/index/GetProductListData"
        toolbar="#toolbar"
        rownumbers="true" fitcolumns="true" singleselect="true" pagination="true">
@@ -12,6 +12,7 @@
             <span>Product ID:</span>
             <input id="productid" style="line-height:26px;border:1px solid #ccc">
             <a href="#" class="easyui-linkbutton" plain="true" onclick="doSearch()">Search</a>
+            <a href="#" class="easyui-linkbutton" plain="true" onclick="reset()">reset</a>
         </div>
         @*<div id="tb" style="padding:5px;height:auto">
             <div style="margin-bottom:5px">
@@ -78,7 +79,15 @@
 
 <script>
     function doSearch() {
-        $('#dg').datagrid('load', {
+        $('#dg1').datagrid('load', {
+            itemid: $('#itemid').val(),
+            productid: $('#productid').val()
+        });
+    };
+    function reset() {
+        $('#itemid').val("");
+        $('#productid').val("");
+        $('#dg1').datagrid('load', {
             itemid: $('#itemid').val(),
             productid: $('#productid').val()
         });
@@ -91,7 +100,7 @@
         url = '../Admin/index/SaveProductData';
     }
     function editUser() {
-        var row = $('#dg').datagrid('getSelected');
+        var row = $('#dg1').datagrid('getSelected');
         if (row) {
             $('#dlg').dialog('open').dialog('setTitle', 'Edit User');
             $('#fm').form('load', row);
@@ -113,19 +122,19 @@
                     });
                 } else {
                     $('#dlg').dialog('close');		// close the dialog
-                    $('#dg').datagrid('reload');	// reload the user data
+                    $('#dg1').datagrid('reload');	// reload the user data
                 }
             }
         });
     }
     function destroyUser() {
-        var row = $('#dg').datagrid('getSelected');
+        var row = $('#dg1').datagrid('getSelected');
         if (row) {
             $.messager.confirm('Confirm', 'Are you sure you want to destroy this user?', function (r) {
                 if (r) {
                     $.post('../Admin/index/DestroyProduct', { id: row.itemid }, function (result) {
                         if (result == 1) {
-                            $('#dg').datagrid('reload');	// reload the user data
+                            $('#dg1').datagrid('reload');	// reload the user data
                         } else {
                             $.messager.show({	// show error message
                                 title: 'Error',

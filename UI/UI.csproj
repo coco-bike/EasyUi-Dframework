@@ -148,11 +148,12 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\IndexController.cs" />
     <Compile Include="Areas\Admin\Controllers\LoginController.cs" />
+    <Compile Include="Areas\Admin\Controllers\RoleAuthorityController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserRoleController.cs" />
     <Compile Include="Areas\Web\Controllers\HomeController.cs" />
     <Compile Include="Areas\Web\WebAreaRegistration.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Controllers\Base\Default1Controller.cs" />
     <Compile Include="Controllers\Base\JsonBackResult.cs" />
     <Compile Include="Controllers\Base\JsonController.cs" />
     <Compile Include="Global.asax.cs">
@@ -2081,7 +2082,12 @@
     <Content Include="Areas\Web\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Admin\Views\Index\AddRole.cshtml" />
+    <Content Include="Areas\Admin\Views\UserRole\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\RoleAuthority\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\MyLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\RoleAuthority\addRole.cshtml" />
+    <Content Include="Areas\Admin\Views\RoleAuthority\addAuthority.cshtml" />
+    <Content Include="Areas\Admin\Views\RoleAuthority\addRoleAuthority.cshtml" />
     <None Include="Properties\PublishProfiles\111.pubxml" />
     <None Include="Properties\PublishProfiles\11111.pubxml" />
     <None Include="Properties\PublishProfiles\2323.pubxml" />
@@ -2172,7 +2178,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Default1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

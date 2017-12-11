@@ -14,7 +14,7 @@ namespace Model
         public string listprice { get; set; }
         public string unitcost { get; set; }
         public string attr1 { get; set; }
-        public string status { get; set; }
+        public int State { get; set; }
 
     }
 }

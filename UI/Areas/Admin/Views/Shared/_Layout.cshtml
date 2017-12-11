@@ -35,9 +35,16 @@
             align-content: center;
         }
 
-        p {
+        p{
             margin-bottom: 0px;
             margin-top: 0px;
+        }
+        #tabs{
+            position:relative;
+        }
+        .tabs-header {
+            position: absolute;
+            top:0px;
         }
     </style>
 </head>
@@ -159,6 +166,11 @@
 <script src="~/Plugs/EasyUi/jquery.easyui.min.js"></script>
 <script src="~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js"></script>
 <script src="~/Scripts/utils.js"></script>
+<script>
+    $('.layout-button-left').click(function () {
+        $('.layout-panel-center').css({height:'1891px'});
+    });
+</script>
 <script>
     var onlyOpenTitle = "主页";//不允许关闭的标签的标题
     $(function () {

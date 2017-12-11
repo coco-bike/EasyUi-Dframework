@@ -61,7 +61,7 @@ namespace Dal
         /// <returns></returns>
         public T Add(T model)
         {
-            model.GetType().GetProperty("status").SetValue(model, "1");
+            model.GetType().GetProperty("State").SetValue(model, 1);
 
             //model.GetType().GetProperty("BuildTime").SetValue(model, DateTime.Now);
 
