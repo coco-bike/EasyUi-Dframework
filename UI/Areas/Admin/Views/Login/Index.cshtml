@@ -1,17 +1,139 @@
 ﻿@{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <link href="~/Plugs/EasyUi/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Plugs/EasyUi/Css/icon.css" rel="stylesheet" />
+    <title>登录</title>
+    <style>
+        p, h1 {
+            margin: 0px;
+        }
+
+        .ck-container {
+            height: 910px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .ck-title {
+            text-align: center;
+            color: rgba(2,117,216,1);
+        }
+
+        .VerCode {
+            width: 80px;
+            height: 24px;
+        }
+
+        .login-form {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .ck-td {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .ck-table {
+            width: 65%;
+        }
+
+        #code {
+            font-size: 12px;
+        }
+
+        .block {
+            height: 200px;
+            width: 100%;
+        }
+
+        .panel {
+            display: inline-block !important;
+        }
+        .ck-middle{
+            display:flex;
+            align-items:center;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        
+    <div class="ck-container">
+        <div class="ck-title">
+            <h1>南京创客平台后台管理系统</h1>
+        </div>
+        <div class="block">
+
+        </div>
+        <div class="easyui-panel" title="用户登录" style="width:350px;">
+            <form id="ff" method="post" class="login-form">
+                <table cellpadding="5" class="ck-table">
+                    <tr>
+                        <td class="ck-td">
+                            <label for="email">邮箱:</label>
+                            <input class="easyui-validatebox ck-input" type="text" name="email" data-options="validType:'email'" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ck-td">
+                            <label for="name">密码:</label>
+                            <input class="easyui-validatebox ck-input" type="text" name="name" data-options="required:true" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ck-td">
+                            <label for="code" id="code">验证码:</label>
+                            <input class="easyui-validatebox ck-input" type="text" name="code" data-options="required:true" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ck-middle">
+                            <img id="ck-imgcode" class="VerCode" src="" />
+                            <a class="easyui-linkbutton ck-button" onclick="restimg()">看不清？换一张</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ck-middle">
+                            <input type="checkbox" class="ck-checkbox easyui-validatebox" name="autologin" />
+                            <label for="autologin">记住密码</label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div class="ck-a" style="text-align:left">
+                <a href="" class="easyui-linkbutton" >注册</a>
+                <a href="" class="easyui-linkbutton" >忘记密码</a>
+            </div>
+            <div class="ck-submit" style="text-align:left;padding:5px">
+                <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">提交</a>
+                <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">清除</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Plugs/EasyUi/jquery.easyui.min.js"></script>
+<script src="~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js"></script>
+<script src="~/Scripts/utils.js"></script>
+<script>
+    function submitForm() {
+        $("#ff").form('submit', {
+            url: "",
+            onSubmit: function () {
+                return $(this).form('validate');
+            },
+            success: function (data) {
+                alert(data);
+            }
+        });
+    }
+    function restimg() {
+        $("#ck-imgcode")
+    }
+</script>

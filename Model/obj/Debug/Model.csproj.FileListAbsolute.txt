@@ -92,3 +92,4 @@ G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\zh-Hans\EntityFramework.resou
 G:\Git\EasyUi+DevelopmentFramework\Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 G:\Git\EasyUi+DevelopmentFramework\Model\obj\Debug\Model.dll
 G:\Git\EasyUi+DevelopmentFramework\Model\obj\Debug\Model.pdb
+G:\Git\EasyUi+DevelopmentFramework\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

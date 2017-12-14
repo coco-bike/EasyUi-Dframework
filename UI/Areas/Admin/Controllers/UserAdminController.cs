@@ -6,15 +6,20 @@ using System.Web.Mvc;
 
 namespace UI.Areas.Admin.Controllers
 {
-    public class LoginController : Controller
+    public class UserAdminController : Controller
     {
         //
-        // GET: /Admin/Login/
+        // GET: /Admin/UserAdmin/
 
-        public ActionResult Index()
+        public ActionResult register()
         {
             return View();
         }
-    
+
+        public ActionResult forgotpassword()
+        {
+            return View();
+        }
+
     }
 }

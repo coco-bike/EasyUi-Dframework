@@ -11,7 +11,7 @@ namespace Model
         /// <summary>
         /// 主键
         /// </summary>
-        public long Id { get; set; }
+        public int Id { get; set; }
         /// <summary>
         /// 角色名称
         /// </summary>

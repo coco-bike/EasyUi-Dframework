@@ -2,3 +2,100 @@
     ViewBag.Title = "addRoleAuthority";
     Layout = "~/Areas/Admin/Views/Shared/MyLayout.cshtml";
 }
+@section MySection{
+	<style>
+		.left{
+			text-align: left;
+		}
+		p{
+			margin: 0px;
+		}
+	</style>
+}
+<p class="left">绑定关系</p>
+<form id="ff" method="post">
+            <table cellpadding="5">
+	    		<tr>
+	    			<td>RoleName:</td>
+	    			<td> <input class="easyui-combobox" name="rolename" data-options="
+					url:'../RoleAuthority/GetRoleNameList',
+					method:'get',
+					valueField:'id',
+					textField:'name',
+					panelHeight:'auto',
+                    required:true
+					"></td>
+	    		</tr>
+	    		<tr>
+	    			<td>AuthorityName:</td>
+	    			<td> <input class="easyui-combobox" name="authorityname" data-options="
+					url:'../RoleAuthority/GetAuthorityNameList',
+					method:'get',
+					valueField:'id',
+					textField:'name',
+					panelHeight:'auto',
+                    required:true
+					"></td>
+	    		</tr>
+	    	</table>
+	    </form>
+        <div style="text-align:left;padding:5px">
+	    	<a href="javascript:void(0)" class="easyui-linkbutton" onclick="enter()">Submit</a>
+	    	<a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">Clear</a>
+	    </div>
+<p class="left">解除关系</p>
+	<form id="dd" method="post">
+            <table cellpadding="5">
+	    		<tr>
+	    			<td>RoleName:</td>
+	    			<td> <input class="easyui-combobox" name="rolename" data-options="
+					url:'../RoleAuthority/GetRoleNameList',
+					method:'get',
+					valueField:'id',
+					textField:'name',
+					panelHeight:'auto',
+                    required:true
+					"></td>
+	    		</tr>
+	    		<tr>
+	    			<td>AuthorityName:</td>
+	    			<td> <input class="easyui-combobox" name="authorityname" data-options="
+					url:'../RoleAuthority/GetAuthorityNameList',
+					method:'get',
+					valueField:'id',
+					textField:'name',
+					panelHeight:'auto',
+                    required:true
+					"></td>
+	    		</tr>
+	    	</table>
+	    </form>
+        <div style="text-align:left;padding:5px">
+	    	<a href="javascript:void(0)" class="easyui-linkbutton" onclick="submit()">Submit</a>
+	    	<a href="javascript:void(0)" class="easyui-linkbutton" onclick="clear()">Clear</a>
+	    </div>
+
+<script>
+    function enter(){
+        $('#ff').form('submit',{
+            url:'../RoleAuthority/BindContact',
+            success:function(data){
+               alert(data);
+            }
+        })
+    };
+    function clearForm(){
+        $('#ff').form('clear');
+    }
+	function submit(){
+		$('#dd').form('submit',{
+			url:'../RoleAuthority/RemoveContact',
+			success:function(data){
+				alert(data);
+			}
+		});
+	}
+	function clear(){
+		$('#dd').form('clear');
+	}
+</script>

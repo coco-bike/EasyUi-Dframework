@@ -44,7 +44,12 @@
         }
         .tabs-header {
             position: absolute;
+            z-index:99;
             top:0px;
+        }
+        #blank{
+            height:30px;
+            width:100%;
         }
     </style>
 </head>
@@ -55,22 +60,22 @@
     <div data-options="region:'south',split:true" style="height:23px;">
         <div class="footer"><p>Copyright © 2017 临界风行. All rights reserved.</p></div>
     </div>
-    <div data-options="region:'west',split:true" title="管理菜单" style="width:170px;">
+    <div data-options="region:'west',split:true,collapsible:false" title="管理菜单"  style="width:170px;">
         <div class="easyui-accordion" data-options="fit:true,border:false">
             <div title="人员管理" data-options="selected:true">
                 <div style="margin: 5px">
                     <ul class="tree easyui-tree" data-options="animate:true,lines:true">
                         <li data-options="iconCls:'icon-group'">
-                            <span id="role">角色管理</span>
+                            <span id="role">角色权限管理</span>
                             <ul>
                                 <li data-options="iconCls:'icon-add'" id="role-1">
-                                    <span>添加角色</span>
+                                    <span>角色</span>
                                 </li>
                                 <li data-options="iconCls:'icon-remove'" id="role-2">
-                                    <span>添加权限</span>
+                                    <span>权限</span>
                                 </li>
                                 <li data-options="iconCls:'icon-save'" id="role-3">
-                                    <span>添加角色权限</span>
+                                    <span>角色权限</span>
                                 </li>
                             </ul>
                         </li>
@@ -121,6 +126,7 @@
     <div data-options="region:'center'">
         <div id="tabs" class="easyui-tabs" data-options="tools:'#tab-tools'">
             <div title="主页" data-options="iconCls:'icon-house'" style="padding: 10px; height: 80%;">
+                <div id="blank"></div>
                 @RenderBody()
                 <div id="mm" class="easyui-menu" style="width: 150px;">
                     <div id="refresh" data-options="iconCls:'icon-mini-refresh'">刷新</div>

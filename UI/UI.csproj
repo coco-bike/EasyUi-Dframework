@@ -149,6 +149,7 @@
     <Compile Include="Areas\Admin\Controllers\IndexController.cs" />
     <Compile Include="Areas\Admin\Controllers\LoginController.cs" />
     <Compile Include="Areas\Admin\Controllers\RoleAuthorityController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserAdminController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserRoleController.cs" />
     <Compile Include="Areas\Web\Controllers\HomeController.cs" />
     <Compile Include="Areas\Web\WebAreaRegistration.cs">
@@ -161,6 +162,7 @@
     </Compile>
     <Compile Include="Models\PagingResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AuthenticationAttribute.cs" />
     <Compile Include="Services\MyExceptionAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2082,12 +2084,14 @@
     <Content Include="Areas\Web\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Admin\Views\UserRole\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\UserRole\register.cshtml" />
     <Content Include="Areas\Admin\Views\RoleAuthority\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\MyLayout.cshtml" />
     <Content Include="Areas\Admin\Views\RoleAuthority\addRole.cshtml" />
     <Content Include="Areas\Admin\Views\RoleAuthority\addAuthority.cshtml" />
     <Content Include="Areas\Admin\Views\RoleAuthority\addRoleAuthority.cshtml" />
+    <Content Include="Areas\Admin\Views\UserAdmin\forgotpassword.cshtml" />
+    <Content Include="Areas\Admin\Views\UserAdmin\register.cshtml" />
     <None Include="Properties\PublishProfiles\111.pubxml" />
     <None Include="Properties\PublishProfiles\11111.pubxml" />
     <None Include="Properties\PublishProfiles\2323.pubxml" />

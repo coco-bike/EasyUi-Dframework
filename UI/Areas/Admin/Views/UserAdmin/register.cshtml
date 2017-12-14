@@ -1,0 +1,63 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Plugs/EasyUi/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Plugs/EasyUi/Css/icon.css" rel="stylesheet" />
+    <title>register</title>
+    <style>
+        .ck-container{
+            text-align:center;
+        }
+        .panel {
+            display: inline-block !important;
+        }
+        .block {
+            height: 200px;
+            width: 100%;
+        }
+        .ck-title {
+            color: rgba(2,117,216,1);
+        }
+    </style>
+</head>
+<body>
+    <div class="ck-container">
+        <div class="ck-title">
+            <h1>南京创客平台后台管理系统</h1>
+        </div>
+        <div class="block">
+
+        </div>
+        <div class="easyui-panel" title="用户注册" style="width:350px;">
+            <form id="ff" method="post" class="login-form">
+                <table cellpadding="5" class="ck-table">
+                    <tr>
+                        <td class="ck-td">
+                            <label for="email">邮箱:</label>
+                            <input class="easyui-validatebox ck-input" type="text" name="email" data-options="validType:'email'" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ck-td">
+                            <label for="name">验证码:</label>
+                            <input class="easyui-validatebox ck-input" type="text" name="name" data-options="required:true" />
+                        </td>
+                    </tr>
+                </table>
+                <div class="ck-submit" style="text-align:left;padding:5px">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">提交</a>
+                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">清除</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Plugs/EasyUi/jquery.easyui.min.js"></script>
+<script src="~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js"></script>
+<script src="~/Scripts/utils.js"></script>
