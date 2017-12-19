@@ -56,9 +56,10 @@
         .panel {
             display: inline-block !important;
         }
-        .ck-middle{
-            display:flex;
-            align-items:center;
+
+        .ck-middle {
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
@@ -76,41 +77,41 @@
                     <tr>
                         <td class="ck-td">
                             <label for="email">邮箱:</label>
-                            <input class="easyui-validatebox ck-input" type="text" name="email" data-options="validType:'email'" />
+                            <input id="email" class="easyui-validatebox ck-input" type="text" name="email" data-options="required:true,validType:'email'" />
                         </td>
                     </tr>
                     <tr>
                         <td class="ck-td">
                             <label for="name">密码:</label>
-                            <input class="easyui-validatebox ck-input" type="text" name="name" data-options="required:true" />
+                            <input id="pwd" class="easyui-validatebox ck-input" type="password" name="pwd" data-options="required:true,validType:'password',delay:300" />
                         </td>
                     </tr>
                     <tr>
                         <td class="ck-td">
                             <label for="code" id="code">验证码:</label>
-                            <input class="easyui-validatebox ck-input" type="text" name="code" data-options="required:true" />
+                            <input id="verifyCode" class="easyui-validatebox ck-input" type="text" name="verifyCode" data-options="required:true,validType:'Length[4]',delay:300" />
                         </td>
                     </tr>
                     <tr>
                         <td class="ck-middle">
-                            <img id="ck-imgcode" class="VerCode" src="" />
+                            <img id="ck-imgcode" class="VerCode" src=" " />
                             <a class="easyui-linkbutton ck-button" onclick="restimg()">看不清？换一张</a>
                         </td>
                     </tr>
                     <tr>
                         <td class="ck-middle">
-                            <input type="checkbox" class="ck-checkbox easyui-validatebox" name="autologin" />
+                            <input id="autoLogin" type="checkbox" class="ck-checkbox easyui-validatebox" name="autoLogin" />
                             <label for="autologin">记住密码</label>
                         </td>
                     </tr>
                 </table>
             </form>
             <div class="ck-a" style="text-align:left">
-                <a href="" class="easyui-linkbutton" >注册</a>
-                <a href="" class="easyui-linkbutton" >忘记密码</a>
+                <a href="../../Admin/UserAdmin/register" class="easyui-linkbutton">注册</a>
+                <a href="../../Admin/UserAdmin/forgotpassword" class="easyui-linkbutton">忘记密码</a>
             </div>
             <div class="ck-submit" style="text-align:left;padding:5px">
-                <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">提交</a>
+                <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">登录</a>
                 <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">清除</a>
             </div>
         </div>
@@ -122,18 +123,62 @@
 <script src="~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js"></script>
 <script src="~/Scripts/utils.js"></script>
 <script>
-    function submitForm() {
-        $("#ff").form('submit', {
-            url: "",
-            onSubmit: function () {
-                return $(this).form('validate');
+    $(function(){
+        restimg();
+    });
+    //自定义验证规则
+    $.extend($.fn.validatebox.defaults.rules, {
+        password: {
+            validator: function (value) {
+                var autoby =/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,10}$/.test($.trim(value));
+                return autoby
             },
-            success: function (data) {
-                alert(data);
-            }
-        });
-    }
+            message: '密码要求必须包含数字、字母，6-10位'
+        },
+        Length: {
+            validator: function (value) {
+                return value.length == 4;
+            },
+            message: 'Please enter at least {0} characters.'
+        }
+    });
+    //提交表单数据
+    function submitForm() {
+        //$("#ff").form('submit', {
+        //    url: "../../Admin/Login/CheckLoginInfo",
+        //    onSubmit: ,
+        //    success: function (data) {
+        //        var dataobject= $.parseJSON(data);
+        //        alert(dataobject.Msg);
+        //    }
+        //});
+        var checkform = function () {
+            var val=$(this).form('validate')
+            return val;
+        };
+        if(checkform){
+            var emailtext=$('#email').val();
+            var pwdtext = $('#pwd').val();
+            var codetext=$('#verifyCode').val();
+            var autoLogintext=$('#autoLogin').is(':checked');
+            $.ajax({
+                url:"../../Admin/Login/CheckLoginInfo",
+                type:"Post",
+                data:{email:emailtext,pwd:pwdtext,verifyCode:codetext,autoLogin:autoLogintext},
+                dataType:"Json",
+                success:function(data){
+                    alert(data.Msg);
+                    $(location).attr('href', '../../Admin/Index/Index');
+                },
+                error:function(data){
+                    alert(data.Msg);
+                }
+            });
+        }
+
+    };
+    //重新获取验证码
     function restimg() {
-        $("#ck-imgcode")
+        $('#ck-imgcode').attr('src','/Login/GetVerifiedCode?time='+Math.random());
     }
 </script>

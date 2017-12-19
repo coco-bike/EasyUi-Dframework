@@ -35,7 +35,7 @@ namespace Model
         /// <summary>
         /// 状态 1启用，0关闭
         /// </summary>
-        public int State { get; set; }
+        public int Status { get; set; }
         public virtual ICollection<RoleModel> RoleModels { get; set; }
     }
 }

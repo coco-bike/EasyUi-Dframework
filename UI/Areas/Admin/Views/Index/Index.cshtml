@@ -2,7 +2,7 @@
     ViewBag.Title = "主页";
 }
 <table id="dg1" title="My Users" class="easyui-datagrid" style="width:100%;height:750px"
-       url="../Admin/index/GetProductListData"
+       url="../../Admin/index/GetProductListData"
        toolbar="#toolbar"
        rownumbers="true" fitcolumns="true" singleselect="true" pagination="true">
     <thead>
@@ -97,14 +97,14 @@
     function newUser() {
         $('#dlg').dialog('open').dialog('setTitle', 'New User');
         $('#fm').form('clear');
-        url = '../Admin/index/SaveProductData';
+        url = '../../Admin/index/SaveProductData';
     }
     function editUser() {
         var row = $('#dg1').datagrid('getSelected');
         if (row) {
             $('#dlg').dialog('open').dialog('setTitle', 'Edit User');
             $('#fm').form('load', row);
-            url = "../Admin/index/UpdateProductData";
+            url = "../../Admin/index/UpdateProductData";
         }
     }
     function saveUser() {
@@ -132,7 +132,7 @@
         if (row) {
             $.messager.confirm('Confirm', 'Are you sure you want to destroy this user?', function (r) {
                 if (r) {
-                    $.post('../Admin/index/DestroyProduct', { id: row.itemid }, function (result) {
+                    $.post('../../Admin/index/DestroyProduct', { id: row.itemid }, function (result) {
                         if (result == 1) {
                             $('#dg1').datagrid('reload');	// reload the user data
                         } else {

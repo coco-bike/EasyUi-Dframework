@@ -79,7 +79,7 @@ namespace API.Controllers
         {
             string pwdMd5 = EncryptionHelper.GetMd5Str(pwd);
             
-            var user = UserService.GetList(t => t.NickName == nickName && t.Pwd == pwdMd5 && t.State == 1).Select(t => new { t.Id, t.NickName, t.Count }).FirstOrDefault();
+            var user = UserService.GetList(t => t.NickName == nickName && t.Pwd == pwdMd5 && t.Status == 1).Select(t => new { t.Id, t.NickName, t.Count }).FirstOrDefault();
             if (user == null)
             {
                 return JsonNetResult(ResultStatus.Fail);
@@ -106,7 +106,7 @@ namespace API.Controllers
                 return JsonNetResult(ResultStatus.EmailErr);
             }
             //账户状态判断
-            var user = this.UserService.GetList(t => t.EMail == email && t.State > 0).FirstOrDefault();//禁用账户的邮箱不能注册
+            var user = this.UserService.GetList(t => t.EMail == email && t.Status > 0).FirstOrDefault();//禁用账户的邮箱不能注册
             if (user != null)//判断邮箱是否存在
             {
                 return JsonNetResult(ResultStatus.EmailExist);
@@ -204,7 +204,7 @@ namespace API.Controllers
             {
                 return JsonNetResult(ResultStatus.EmailErr);
             }
-            var user = this.UserService.GetList(t => t.EMail == eMail && t.State == 1).FirstOrDefault();//判断邮箱是否存在，防止用户恶性发送邮件,禁用的用户不能找回密码
+            var user = this.UserService.GetList(t => t.EMail == eMail && t.Status == 1).FirstOrDefault();//判断邮箱是否存在，防止用户恶性发送邮件,禁用的用户不能找回密码
             if (user == null)//判断邮箱是否存在
             {
                 return JsonNetResult(ResultStatus.EmailNoExist);
@@ -241,7 +241,7 @@ namespace API.Controllers
             {
                 return JsonNetResult(ResultStatus.EmailErr);
             }
-            var user = this.UserService.GetList(t => t.EMail == eMail && t.State == 1).FirstOrDefault();
+            var user = this.UserService.GetList(t => t.EMail == eMail && t.Status == 1).FirstOrDefault();
             if (user == null)//判断注册的用户名是否存在
             {
                 return JsonNetResult(ResultStatus.EmailNoExist);
@@ -276,7 +276,7 @@ namespace API.Controllers
             {
                 return JsonNetResult(ResultStatus.EmailErr);
             }
-            var user = this.UserService.GetList(t => t.State == 1 && t.EMail == eMail).FirstOrDefault();
+            var user = this.UserService.GetList(t => t.Status == 1 && t.EMail == eMail).FirstOrDefault();
             if (user == null)
             {
                 return JsonNetResult(ResultStatus.EmailNoExist);

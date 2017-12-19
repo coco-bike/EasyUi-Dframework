@@ -7,6 +7,7 @@ using Common;
 using IService;
 using Model;
 using UI.Controllers.Base;
+using UI.Services;
 
 namespace UI.Areas.Admin.Controllers
 {
@@ -15,14 +16,17 @@ namespace UI.Areas.Admin.Controllers
 
         #region 页面
         // GET: /Admin/Index/
+        [Authentication]
         public ActionResult Index()
         {
             return View();
         }
+        [Authentication]
         public ActionResult DataGrid()
         {
             return View();
         }
+        [Authentication]
         public ActionResult SchoolClassTable()
         {
             return View();
@@ -50,7 +54,7 @@ namespace UI.Areas.Admin.Controllers
            var pageSize = Convert.ToInt32(rows);
            if (itemid == null && productid == null||(itemid==""&&productid==""))
            {
-               var productlist = this._productService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.State == 1, s => s.Id).Select(t => new { t.Id, t.itemid, t.listprice, t.productid, status = t.State, t.unitcost, t.attr1 }).ToList();
+               var productlist = this._productService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.Status == 1, s => s.Id).Select(t => new { t.Id, t.itemid, t.listprice, t.productid, status = t.Status, t.unitcost, t.attr1 }).ToList();
                return Json(new { total = totalCount, rows = productlist });
            }
            else
@@ -115,7 +119,7 @@ namespace UI.Areas.Admin.Controllers
             {
                 return Json(ResultStatus.Fail);
             }
-            int result = this._productService.DeleteFake(t => t.itemid == item, t => new ProductModel() { State = 0 });
+            int result = this._productService.DeleteFake(t => t.itemid == item, t => new ProductModel() { Status = 0 });
             if (result > 0)
             {
                 return Json(ResultStatus.Success);

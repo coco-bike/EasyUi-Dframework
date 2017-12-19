@@ -14,7 +14,7 @@
     </style>
 }
 <table id="dg2" title="My Users" class="easyui-datagrid" style="width:100%;height:600px"
-       url="../RoleAuthority/GetRoleListData"
+       url="../../RoleAuthority/GetRoleListData"
        toolbar="#toolbar"
        rownumbers="true" fitcolumns="true" singleselect="true" pagination="true">
     <thead>
@@ -73,14 +73,14 @@
     function newUser() {
         $('#dlg').dialog('open').dialog('setTitle', 'New User');
         $('#fm').form('clear');
-        url = '../RoleAuthority/SaveRoleData';
+        url = '../../RoleAuthority/SaveRoleData';
     }
     function editUser() {
         var row = $('#dg2').datagrid('getSelected');
         if (row) {
             $('#dlg').dialog('open').dialog('setTitle', 'Edit User');
             $('#fm').form('load', row);
-            url = "../RoleAuthority/UpdateRoleData";
+            url = "../../RoleAuthority/UpdateRoleData";
         }
     }
     function saveUser() {
@@ -108,7 +108,7 @@
         if (row) {
             $.messager.confirm('Confirm', 'Are you sure you want to destroy this user?', function (r) {
                 if (r) {
-                    $.post('../RoleAuthority/DestroyRole', { id: row.Id }, function (result) {
+                    $.post('../../RoleAuthority/DestroyRole', { id: row.Id }, function (result) {
                         if (result == 1) {
                             $('#dg2').datagrid('reload');	// reload the user data
                         } else {

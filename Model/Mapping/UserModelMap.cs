@@ -26,7 +26,7 @@ namespace Model
             this.Property(t => t.LoginTime).IsRequired();
             this.Property(t => t.NickName).IsRequired().HasMaxLength(500);
             this.Property(t => t.Pwd).IsRequired().HasMaxLength(500);
-            this.Property(t => t.State).IsRequired();
+            this.Property(t => t.Status).IsRequired();
             this.Property(t => t.TelNumber).IsRequired().HasMaxLength(500);
             this.Property(t => t.UName).IsRequired().HasMaxLength(500);
 

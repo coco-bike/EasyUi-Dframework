@@ -23,7 +23,7 @@ namespace Model
             this.Property(t => t.BuildTime).IsRequired();
             this.Property(t => t.Description).IsRequired().HasMaxLength(500);
             this.Property(t => t.Name).IsRequired().HasMaxLength(500);
-            this.Property(t => t.State).IsRequired();
+            this.Property(t => t.Status).IsRequired();
             this.Property(t => t.Type).IsRequired();
             this.Property(t => t.UpdateTime).IsRequired();
 

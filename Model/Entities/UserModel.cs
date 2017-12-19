@@ -55,7 +55,7 @@ namespace Model
         /// <summary>
         /// 状态(0：删除，1：启用，2：禁用)
         /// </summary>
-        public int State { get; set; }
+        public int Status { get; set; }
         public virtual ICollection<RoleModel> RoleModels { get; set; }
     }
 }

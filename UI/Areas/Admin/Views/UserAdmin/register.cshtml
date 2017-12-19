@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width" />
     <link href="~/Plugs/EasyUi/themes/default/easyui.css" rel="stylesheet" />
     <link href="~/Plugs/EasyUi/Css/icon.css" rel="stylesheet" />
-    <title>register</title>
+    <title>注册</title>
     <style>
         .ck-container{
             text-align:center;
@@ -21,6 +21,10 @@
         }
         .ck-title {
             color: rgba(2,117,216,1);
+        }
+        .ck-middle{
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
@@ -43,15 +47,38 @@
                     </tr>
                     <tr>
                         <td class="ck-td">
+                            <label for="name">密码:</label>
+                            <input id="password" class="easyui-validatebox ck-input" type="password" name="password" data-options="required:true,validType:'password',delay:300" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ck-td">
+                            <label for="name">确认密码:</label>
+                            <input id="checkpassword"class="easyui-validatebox ck-input" type="password" name="password1"  data-options="required:true" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ck-td">
                             <label for="name">验证码:</label>
-                            <input class="easyui-validatebox ck-input" type="text" name="name" data-options="required:true" />
+                            <input class="easyui-validatebox ck-input" type="text" name="code" data-options="required:true" />
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="ck-middle">
+                            <img id="ck-imgcode" class="VerCode" src=" " />
+                            <a class="easyui-linkbutton ck-button" onclick="restimg()">看不清？换一张</a>
                         </td>
                     </tr>
                 </table>
+            <div class="ck-a" style="text-align:left">
+                <a href="../../admin/Login/index" class="easyui-linkbutton">登录</a>
+                <a href="../../Admin/UserAdmin/forgotpassword" class="easyui-linkbutton">忘记密码</a>
+            </div>              
                 <div class="ck-submit" style="text-align:left;padding:5px">
-                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">提交</a>
-                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">清除</a>
+                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submit()">提交</a>
+                    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clear()">清除</a>
                 </div>
+                
             </form>
         </div>
     </div>
@@ -61,3 +88,50 @@
 <script src="~/Plugs/EasyUi/jquery.easyui.min.js"></script>
 <script src="~/Plugs/EasyUi/locale/easyui-lang-zh_CN.js"></script>
 <script src="~/Scripts/utils.js"></script>
+<script>
+      $.extend($.fn.validatebox.defaults.rules, {
+        password: {
+            validator: function (value) {
+                var autoby =/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,10}$/.test($.trim(value));
+                return autoby
+            },
+            message: '密码要求必须包含数字、字母，6-10位'
+        },
+        Length: {
+            validator: function (value) {
+                return value.length == 4;
+            },
+            message: 'Please enter at least {0} characters.'
+        }
+    });
+    $(function(){
+        restimg();
+    })
+    function submit() {
+        var pwd=$("#password").val();
+        var pwd1=$("#checkpassword").val();
+        if(pwd==pwd1){
+             $('#ff').form('submit', {
+            url: "../../Admin/UserAdmin/RegisterUserData",
+            onSubmit: function () {
+                return $(this).form('validate');
+            },
+            success: function (data) {
+                var dataobject= $.parseJSON(data);
+                alert(dataobject.Msg);
+            }
+        });
+        }
+        else{
+            alert("2次密码不一致");
+        }
+       
+    };
+   function clear(){
+       $('#ff').form('clear');
+   }
+    //重新获取验证码
+    function restimg() {
+         $('#ck-imgcode').attr('src','/UserAdmin/GetRegisterVerifiedCode?time='+Math.random());
+    }
+</script>

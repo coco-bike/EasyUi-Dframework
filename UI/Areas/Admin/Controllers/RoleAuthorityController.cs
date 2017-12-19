@@ -58,7 +58,7 @@ namespace UI.Areas.Admin.Controllers
             var pageSize = Convert.ToInt32(rows);
             if (rolename == null || rolename == "")
             {
-                var rolelist = this._roleService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.State == 1, s => s.Id).Select(t => new { t.Id, t.RoleName, t.Description, t.UpdateTime, t.BuildTime, t.AuthorityModels }).ToList();
+                var rolelist = this._roleService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.Status == 1, s => s.Id).Select(t => new { t.Id, t.RoleName, t.Description, t.UpdateTime, t.BuildTime, t.AuthorityModels }).ToList();
                 List<RoleData> roledatalist = new List<RoleData>();
                 for (int i = 0; i < rolelist.Count; i++)
                 {
@@ -97,7 +97,7 @@ namespace UI.Areas.Admin.Controllers
             else
             {
                 totalCount = 1;
-                var rolelist = this._roleService.GetList(s => s.RoleName == rolename && s.State == 1).ToList();
+                var rolelist = this._roleService.GetList(s => s.RoleName == rolename && s.Status == 1).ToList();
                 if (rolelist.Count > 0)
                 {
                     List<RoleData> roledatalist = new List<RoleData>();
@@ -141,7 +141,7 @@ namespace UI.Areas.Admin.Controllers
         /// <returns></returns>
         public JsonResult UpdateRoleData(RoleModel rolemodel)
         {
-            var role = this._roleService.GetList(s => s.RoleName == rolemodel.RoleName && s.State == 1).FirstOrDefault();
+            var role = this._roleService.GetList(s => s.RoleName == rolemodel.RoleName && s.Status == 1).FirstOrDefault();
             if (role == null)
             {
                 return Json(ResultStatus.Fail);
@@ -163,7 +163,7 @@ namespace UI.Areas.Admin.Controllers
         /// <returns></returns>
         public JsonResult SaveRoleData(RoleModel rolemodel)
         {
-            var rolelist = this._roleService.GetList(s => s.RoleName == rolemodel.RoleName && s.State == 1).ToList();
+            var rolelist = this._roleService.GetList(s => s.RoleName == rolemodel.RoleName && s.Status == 1).ToList();
             if (rolelist.Count > 0)
             {
                 return Json(ResultStatus.Fail);
@@ -187,7 +187,7 @@ namespace UI.Areas.Admin.Controllers
             {
                 return Json(ResultStatus.Fail);
             }
-            int result = this._roleService.DeleteFake(t => t.Id == id, t => new RoleModel() { State = 0 });
+            int result = this._roleService.DeleteFake(t => t.Id == id, t => new RoleModel() { Status = 0 });
             if (result > 0)
             {
                 return Json(ResultStatus.Success);
@@ -211,13 +211,13 @@ namespace UI.Areas.Admin.Controllers
             var pageSize = Convert.ToInt32(rows);
             if (name == null || name == "")
             {
-                var authoritylist = this._authorityService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.State == 1, s => s.Id).Select(s => new { s.Id, s.Name, s.State, s.Type, s.UpdateTime, s.Description, s.BuildTime }).ToList();
+                var authoritylist = this._authorityService.GetPagingList(pageIndex, pageSize, out totalCount, true, s => s.Status == 1, s => s.Id).Select(s => new { s.Id, s.Name, State = s.Status, s.Type, s.UpdateTime, s.Description, s.BuildTime }).ToList();
                 return Json(new { total = totalCount, rows = authoritylist });
             }
             else
             {
                 totalCount = 1;
-                var authoritylist = this._authorityService.GetList(s => s.Name == name && s.State == 1).ToList();
+                var authoritylist = this._authorityService.GetList(s => s.Name == name && s.Status == 1).ToList();
                 return Json(new { total = totalCount, rows = authoritylist });
 
             }
@@ -251,7 +251,7 @@ namespace UI.Areas.Admin.Controllers
         /// <returns></returns>
         public JsonResult SaveAuthorityData(AuthorityModel authoritydata)
         {
-            var authority = this._authorityService.GetList(t => t.Name == authoritydata.Name && t.State == 1).ToList();
+            var authority = this._authorityService.GetList(t => t.Name == authoritydata.Name && t.Status == 1).ToList();
             if (authority.Count > 0)
             {
                 return Json(ResultStatus.Fail);
@@ -275,7 +275,7 @@ namespace UI.Areas.Admin.Controllers
             {
                 return Json(ResultStatus.Fail);
             }
-            int result = this._authorityService.DeleteFake(t => t.Id == id, t => new AuthorityModel() { State = 0 });
+            int result = this._authorityService.DeleteFake(t => t.Id == id, t => new AuthorityModel() { Status = 0 });
             if (result > 0)
             {
                 return Json(ResultStatus.Success);
@@ -291,7 +291,7 @@ namespace UI.Areas.Admin.Controllers
         /// <returns></returns>
         public JsonResult GetRoleNameList()
         {
-            var rolelist = this._roleService.GetList(s => s.State == 1).Select(t => new { t.RoleName, t.Id }).ToList();
+            var rolelist = this._roleService.GetList(s => s.Status == 1).Select(t => new { t.RoleName, t.Id }).ToList();
             if (rolelist == null)
             {
                 return Json(ResultStatus.Fail);
@@ -339,7 +339,7 @@ namespace UI.Areas.Admin.Controllers
         /// <returns></returns>
         public JsonResult GetAuthorityNameList()
         {
-            var authoritylist = this._authorityService.GetList(s => s.State == 1).Select(t => new { t.Name, t.Id }).ToList();
+            var authoritylist = this._authorityService.GetList(s => s.Status == 1).Select(t => new { t.Name, t.Id }).ToList();
             if (authoritylist == null)
             {
                 return Json(ResultStatus.Fail);

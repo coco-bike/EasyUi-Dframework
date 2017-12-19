@@ -18,7 +18,7 @@
 	    		<tr>
 	    			<td>RoleName:</td>
 	    			<td> <input class="easyui-combobox" name="rolename" data-options="
-					url:'../RoleAuthority/GetRoleNameList',
+					url:'../../RoleAuthority/GetRoleNameList',
 					method:'get',
 					valueField:'id',
 					textField:'name',
@@ -29,7 +29,7 @@
 	    		<tr>
 	    			<td>AuthorityName:</td>
 	    			<td> <input class="easyui-combobox" name="authorityname" data-options="
-					url:'../RoleAuthority/GetAuthorityNameList',
+					url:'../../RoleAuthority/GetAuthorityNameList',
 					method:'get',
 					valueField:'id',
 					textField:'name',
@@ -49,7 +49,7 @@
 	    		<tr>
 	    			<td>RoleName:</td>
 	    			<td> <input class="easyui-combobox" name="rolename" data-options="
-					url:'../RoleAuthority/GetRoleNameList',
+					url:'../../RoleAuthority/GetRoleNameList',
 					method:'get',
 					valueField:'id',
 					textField:'name',
@@ -60,7 +60,7 @@
 	    		<tr>
 	    			<td>AuthorityName:</td>
 	    			<td> <input class="easyui-combobox" name="authorityname" data-options="
-					url:'../RoleAuthority/GetAuthorityNameList',
+					url:'../../RoleAuthority/GetAuthorityNameList',
 					method:'get',
 					valueField:'id',
 					textField:'name',
@@ -78,7 +78,7 @@
 <script>
     function enter(){
         $('#ff').form('submit',{
-            url:'../RoleAuthority/BindContact',
+            url:'../../RoleAuthority/BindContact',
             success:function(data){
                alert(data);
             }
@@ -89,7 +89,7 @@
     }
 	function submit(){
 		$('#dd').form('submit',{
-			url:'../RoleAuthority/RemoveContact',
+			url:'../../RoleAuthority/RemoveContact',
 			success:function(data){
 				alert(data);
 			}

@@ -20,12 +20,12 @@ function addTab1(url,icon,titletext){
 
 $(function(){
 $('#_easyui_tree_2').click(function(){
-    addTab1('../Admin/RoleAuthority/AddRole','','角色');
+    addTab1('../../Admin/RoleAuthority/AddRole','','角色');
 });
 $('#_easyui_tree_3').click(function(){
-    addTab1('../Admin/RoleAuthority/addAuthority','','权限');
+    addTab1('../../Admin/RoleAuthority/addAuthority','','权限');
 });
 $('#_easyui_tree_4').click(function(){
-    addTab1('../Admin/RoleAuthority/addRoleAuthority','','角色权限');
+    addTab1('../../Admin/RoleAuthority/addRoleAuthority','','角色权限');
 })
 });
