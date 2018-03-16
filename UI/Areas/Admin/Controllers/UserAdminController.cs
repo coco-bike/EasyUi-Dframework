@@ -64,8 +64,8 @@ namespace UI.Areas.Admin.Controllers
             userData.NickName = "小明";
             userData.Count = 0;
             userData.HeadPicUrl = "../Imgs/";
-            userData.LoginTime = DateTime.Now;
-            userData.BuildTime = DateTime.Now;
+            userData.LoginTime = DateTime.Now.ToString();
+            userData.BuildTime = DateTime.Now.ToString();
             userData.Pwd = EncryptionHelper.GetMd5Str(password);
             userData.Status = 1;
             userData.TelNumber = "18251935177";
@@ -106,7 +106,7 @@ namespace UI.Areas.Admin.Controllers
             return JsonBackResult(ResultStatus.Fail);
         }
         /// <summary>
-        /// 
+        /// 验证身份
         /// </summary>
         /// <param name="email"></param>
         /// <param name="code"></param>

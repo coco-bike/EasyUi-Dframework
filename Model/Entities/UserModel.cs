@@ -43,15 +43,15 @@ namespace Model
         /// <summary>
         /// 创建时间
         /// </summary>
-        public DateTime BuildTime { get; set; }
+        public string BuildTime { get; set; }
         /// <summary>
         /// 修改时间
         /// </summary>
-        public DateTime UpdateTime { get; set; }
+        public string UpdateTime { get; set; }
         /// <summary>
         /// 最新登录时间
         /// </summary>
-        public DateTime LoginTime { get; set; }
+        public string LoginTime { get; set; }
         /// <summary>
         /// 状态(0：删除，1：启用，2：禁用)
         /// </summary>

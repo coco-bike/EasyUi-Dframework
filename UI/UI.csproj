@@ -150,6 +150,7 @@
     <Compile Include="Areas\Admin\Controllers\LoginController.cs" />
     <Compile Include="Areas\Admin\Controllers\RoleAuthorityController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserAdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserRoleController.cs" />
     <Compile Include="Areas\Web\Controllers\HomeController.cs" />
     <Compile Include="Areas\Web\WebAreaRegistration.cs">
@@ -2092,6 +2093,8 @@
     <Content Include="Areas\Admin\Views\RoleAuthority\addRoleAuthority.cshtml" />
     <Content Include="Areas\Admin\Views\UserAdmin\forgotpassword.cshtml" />
     <Content Include="Areas\Admin\Views\UserAdmin\register.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\User\UserRoleBinding.cshtml" />
     <None Include="Properties\PublishProfiles\111.pubxml" />
     <None Include="Properties\PublishProfiles\11111.pubxml" />
     <None Include="Properties\PublishProfiles\2323.pubxml" />

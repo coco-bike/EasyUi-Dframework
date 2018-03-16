@@ -17,6 +17,16 @@ namespace UI.Areas.Admin.Controllers
         #region 页面
         public ActionResult Index()
         {
+            var a = Request.Cookies["sessionId"];
+            if (a != null)
+            {
+                var key = Request.Cookies["sessionId"].Value;
+                if (CacheHelper.Get(key)!=null)
+                {
+                    return View("Index");
+                }
+                return View();
+            }
             return View();
         }
         #endregion
@@ -74,7 +84,7 @@ namespace UI.Areas.Admin.Controllers
                     Response.Cookies["sessiionId"].Expires = DateTime.Now.AddDays(1);
                 }
                 userInfo.Count = userInfo.Count + 1;
-                userInfo.LoginTime = DateTime.Now;
+                userInfo.LoginTime = DateTime.Now.ToString();
                 var res = this._userService.Update(userInfo);
                 if (res > 0)
                 {

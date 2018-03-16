@@ -61,6 +61,7 @@
     <Compile Include="EncryptionHelper.cs" />
     <Compile Include="ConfigHelper.cs" />
     <Compile Include="Helper.cs" />
+    <Compile Include="HttpHelper.cs" />
     <Compile Include="ImgHelper.cs" />
     <Compile Include="LogHelper.cs" />
     <Compile Include="MailHelper.cs" />

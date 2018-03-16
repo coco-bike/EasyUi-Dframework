@@ -63,7 +63,7 @@ namespace Dal
         {
             model.GetType().GetProperty("Status").SetValue(model, 1);
 
-            model.GetType().GetProperty("UpdateTime").SetValue(model, DateTime.Now);
+            model.GetType().GetProperty("UpdateTime").SetValue(model, DateTime.Now.ToString());
 
             return entity.Set<T>().Add(model);
         }
